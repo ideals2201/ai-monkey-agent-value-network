@@ -4,6 +4,8 @@
     "network_name":  "AI Monkey Agent Value Network",
     "website":  "http://43.129.246.70/",
     "fixed_usd10_purchase_instructions":  "http://43.129.246.70/fixed-usd10-lead-instructions.html",
+    "direct_fixed_usd10_purchase":  "http://43.129.246.70/buy-usd10-now.html",
+    "direct_fixed_usd10_purchase_json":  "http://43.129.246.70/buy-usd10-now.json",
     "public_email":  "binhaitjzhda@gmail.com",
     "payment_after_scope_agreed":  "https://paypal.me/binhai2001/10",
     "paypal_after_scope_accepted":  "https://paypal.me/binhai2001/10",

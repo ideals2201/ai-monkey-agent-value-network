@@ -1,0 +1,55 @@
+{
+  "schema": "ai-monkey-buy-usd10-now-v0",
+  "status": "public_purchase_instruction_not_income",
+  "service": "Fixed USD 10 public-source micro-audit",
+  "price": {
+    "amount": 10,
+    "currency": "USD",
+    "payment_url": "https://paypal.me/binhai2001/10",
+    "rule": "Buyer may pay fixed USD 10 for one public-source micro-audit, then email only public-safe scope details. AI Monkey does not collect payment data on this site."
+  },
+  "buyer_gets": "One GO / HOLD / NO-GO public-source audit for one earning/value route, AI tool/vendor, bounty-like task, lead source, or workflow opportunity.",
+  "delivery_target": "Within 24 hours after USD 10 payment confirmation and public-safe scope email are received.",
+  "email_after_payment": {
+    "to": "binhaitjzhda@gmail.com",
+    "subject": "AI Monkey Paid Micro-Audit: fixed_usd_10",
+    "mailto": "mailto:binhaitjzhda@gmail.com?subject=AI%20Monkey%20Paid%20Micro-Audit%3A%20fixed_usd_10&body=Payment%20status%3A%20Paid%20USD%2010%20via%20PayPal.Me%0AService%3A%20one-route%20public-source%20micro-audit%0AOfficial_source_url%3A%20%0ARoute_or_tool_name%3A%20%0AWhat_you_want_checked%3A%20%0ADeadline_or_currentness%3A%20%0APublic_proof_url_if_any%3A%20%0APrivate_data_included%3A%20No%0A"
+  },
+  "scope_fields": [
+    "official_source_url",
+    "route_or_tool_name",
+    "what_you_want_checked",
+    "deadline_or_currentness",
+    "public_proof_url_if_any",
+    "private_data_included=No"
+  ],
+  "deliverable_fields": [
+    "decision",
+    "official_source",
+    "currentness",
+    "value_signal",
+    "eligibility_or_fit",
+    "automation_boundary",
+    "blockers",
+    "next_action",
+    "paid_or_usable_value_gate"
+  ],
+  "hard_boundary": [
+    "Do not send passwords",
+    "Do not send OTP or 2FA codes",
+    "Do not send API keys, tokens, cookies, localStorage, private keys, or seed phrases",
+    "Do not send payment cards, bank data, wallet signing data, KYC, tax, or identity documents",
+    "Do not send private screenshots, customer data, full addresses, private phone numbers, claim codes, or gift card codes"
+  ],
+  "income_gate": {
+    "income_now": "No",
+    "paid_or_usable_value": "No",
+    "rule": "This public instruction is not income. Count income only after payment or another usable value is actually received and verified."
+  },
+  "links": {
+    "html": "http://43.129.246.70/buy-usd10-now.html",
+    "service_offer": "http://43.129.246.70/service-offer.json",
+    "sample_report": "http://43.129.246.70/sample-audit-report.html",
+    "status": "http://43.129.246.70/submission-status.json"
+  }
+}
