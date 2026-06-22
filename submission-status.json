@@ -1,6 +1,6 @@
 {
     "schema":  "ai-monkey-submission-status-index-v0",
-    "updated_at":  "2026-06-22T16:22:00Z",
+    "updated_at":  "2026-06-22T16:36:00Z",
     "network_name":  "AI Monkey Agent Value Network",
     "public_base_url":  "http://43.129.246.70/",
     "public_contact_email":  "binhaitjzhda@gmail.com",
@@ -1540,6 +1540,35 @@
                         "evidence_gate":  "Directory publishes listing or sends buyer/service lead, then buyer accepts scope and payment or usable value is received and verified.",
                         "boundary":  "No login, captcha bypass, payment, private data, KYC/tax, wallet, purchase, or account-sensitive action.",
                         "response":  "success=true; Your submission was successful."
+                    },
+                    {
+                        "timestamp":  "2026-06-22T16:35:00Z",
+                        "directory":  "Frantic #47 redelivery packet v2 public JSON",
+                        "status":  "public_packet_ready_not_redelivered_no_income",
+                        "action":  "Published Frantic #47 v2 public-safe redelivery action packet as public JSON for authorized official-session use.",
+                        "public_source":  "https://gofrantic.com/v1/bounties/47",
+                        "public_packet":  "http://43.129.246.70/frantic-47-redelivery-action-packet-v2.json",
+                        "evidence":  "D:\\AImonkey\\FRANTIC_47_REDELIVERY_PACKET_V2_PUBLIC_DEPLOY_2026-06-23.md",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "evidence_gate":  "Authorized Frantic session submits safe refs, Frantic accepts #47, payout/usable value received and verified.",
+                        "boundary":  "No token/cookie/localStorage/session/payout/KYC/tax/bank/card/wallet/identity/screenshot/private data; no redelivery submitted."
+                    },
+                    {
+                        "timestamp":  "2026-06-22T16:36:00Z",
+                        "directory":  "Scalevise direct buyer outreach",
+                        "status":  "sent_pending_reply_no_income",
+                        "action":  "Sent fixed USD10 public-source audit offer to Scalevise public contact.",
+                        "public_source":  "https://scalevise.com/tools",
+                        "public_contact_email":  "contact@scalevise.com",
+                        "gmail_sent_id":  "19ef01dfd077503d",
+                        "evidence":  "D:\\AImonkey\\SCALEVISE_DIRECT_BUYER_OUTREACH_2026-06-23.md",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "evidence_gate":  "Recipient replies, accepts scope, and payment or usable value is received and verified.",
+                        "boundary":  "No login, private data, payment/KYC/tax, wallet, purchase, or account-sensitive action."
                     }
                 ],
     "evidence_gate":  {
