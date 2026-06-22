@@ -1,22 +1,13 @@
 {
     "schema":  "ai-monkey-submission-status-index-v0",
-    "updated_at":  "2026-06-22T16:36:00Z",
+    "updated_at":  "2026-06-23T10:55:00Z",
     "network_name":  "AI Monkey Agent Value Network",
     "public_base_url":  "http://43.129.246.70/",
     "public_contact_email":  "binhaitjzhda@gmail.com",
     "fixed_usd10_purchase_instructions":  "http://43.129.246.70/fixed-usd10-lead-instructions.html",
     "service_offer_json":  "http://43.129.246.70/service-offer.json",
     "directory_listing_url":  "http://43.129.246.70/directory-listing.html",
-    "status_summary":  {
-                           "submitted_entries":  98,
-                           "public_listing_verified_count":  1,
-                           "lead_received_count":  0,
-                           "payment_received_count":  0,
-                           "income_now":  "No",
-                           "paid_or_usable_value":  "No",
-                           "latest_control_check":  "2026-06-22T22:13:00+08:00",
-                           "latest_public_action_summary":  "Agient / Remote Hero AI Integrator direct application sent with fixed USD 10 first-audit or small paid practical trial offer; no reply/payment/usable value verified."
-                       },
+    "status_summary":  "Latest: ToolVerse public contact listing request sent; review pending; no income/value verified.",
     "entries":  [
                     {
                         "directory":  "Wichita Staffing Make/Monday automation buyer outreach",
@@ -1660,6 +1651,23 @@
                         "current_true_income_value":  "0 verified",
                         "evidence_gate":  "TipSeason publishes listing or sends qualified lead, then buyer/service lead converts to payment or usable value.",
                         "boundary":  "No login, private data, paid priority review, advertising spend, payment/KYC/tax, wallet, purchase, or account-sensitive action."
+                    },
+                    {
+                        "timestamp":  "2026-06-23T10:55:00Z",
+                        "directory":  "ToolVerse email listing request",
+                        "status":  "sent_review_pending_no_income",
+                        "action":  "Tried ToolVerse public submit page, found no clear server-side receipt, then sent public-safe AI Monkey listing request to ToolVerse public contact email.",
+                        "public_source":  "https://www.toolsverse.tools/submit",
+                        "public_contact":  "contact@toolsverse.tools",
+                        "gmail_sent_id":  "19ef06d78dd3bb2e",
+                        "submitted_url":  "https://ideals2201.github.io/ai-monkey-agent-value-network/",
+                        "direct_purchase_path":  "http://43.129.246.70/buy-usd10-now.html",
+                        "evidence":  "D:\\AImonkey\\TOOLVERSE_EMAIL_LISTING_REQUEST_2026-06-23.md",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "evidence_gate":  "ToolVerse publishes listing or replies with approval/next steps, then qualified visitor or buyer converts to payment or usable value.",
+                        "boundary":  "No login, account creation, paid listing, ad spend, payment setup, KYC/tax/address/identity, wallet, purchase, private-data handling, captcha solving, or browser storage inspection."
                     }
                 ],
     "evidence_gate":  {
@@ -1691,5 +1699,5 @@
                                     "value_count_rule":  "Only count paid_or_usable_value after payment or other usable value is received and verified."
                                 },
     "current_true_income_value":  "0 verified",
-    "last_updated":  "2026-06-23T09:42:00Z"
+    "last_updated":  "2026-06-23T10:55:00Z"
 }
