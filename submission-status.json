@@ -1,6 +1,6 @@
 {
     "schema":  "ai-monkey-submission-status-index-v0",
-    "updated_at":  "2026-06-22T16:13:00Z",
+    "updated_at":  "2026-06-22T16:22:00Z",
     "network_name":  "AI Monkey Agent Value Network",
     "public_base_url":  "http://43.129.246.70/",
     "public_contact_email":  "binhaitjzhda@gmail.com",
@@ -1508,6 +1508,38 @@
                         "current_true_income_value":  "0 verified",
                         "evidence_gate":  "Directory publishes listing or sends buyer/service lead, then buyer accepts scope and payment or usable value is received and verified.",
                         "boundary":  "No login, captcha bypass, payment, private data, KYC/tax, wallet, purchase, or account-sensitive action."
+                    },
+                    {
+                        "timestamp":  "2026-06-22T16:22:00Z",
+                        "directory":  "AI Tool Claw fallback email submission",
+                        "status":  "email_submission_sent_pending_review_no_income",
+                        "action":  "AI Tool Claw form backend failed and page instructed email fallback; sent public listing details to submit@aitoolclaw.com.",
+                        "public_source":  "https://aitoolclaw.com/pricing/",
+                        "submitted_url":  "https://ideals2201.github.io/ai-monkey-agent-value-network/",
+                        "public_contact_email":  "binhaitjzhda@gmail.com",
+                        "evidence":  "D:\\AImonkey\\AITOOlCLAW_AND_PROJECTPEDIA_SUBMISSIONS_2026-06-23.md",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "evidence_gate":  "Directory publishes listing or sends buyer/service lead, then buyer accepts scope and payment or usable value is received and verified.",
+                        "boundary":  "No login, captcha bypass, payment, private data, KYC/tax, wallet, purchase, or account-sensitive action.",
+                        "gmail_sent_id":  "19ef013e0db77c13"
+                    },
+                    {
+                        "timestamp":  "2026-06-22T16:22:00Z",
+                        "directory":  "Projectpedia free directory submission",
+                        "status":  "submitted_pending_review_no_income",
+                        "action":  "Submitted AI Monkey Agent Value Network to Projectpedia free tool submission form; response success=true.",
+                        "public_source":  "https://projectpedia.net/submit-tool/",
+                        "submitted_url":  "https://ideals2201.github.io/ai-monkey-agent-value-network/",
+                        "public_contact_email":  "binhaitjzhda@gmail.com",
+                        "evidence":  "D:\\AImonkey\\AITOOlCLAW_AND_PROJECTPEDIA_SUBMISSIONS_2026-06-23.md",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "evidence_gate":  "Directory publishes listing or sends buyer/service lead, then buyer accepts scope and payment or usable value is received and verified.",
+                        "boundary":  "No login, captcha bypass, payment, private data, KYC/tax, wallet, purchase, or account-sensitive action.",
+                        "response":  "success=true; Your submission was successful."
                     }
                 ],
     "evidence_gate":  {
