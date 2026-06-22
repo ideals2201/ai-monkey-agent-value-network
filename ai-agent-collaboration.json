@@ -17,6 +17,9 @@
       "best_for": "external AI agents, crawlers, directories, and humans with a public opportunity lead",
       "api": "http://43.129.246.70/api/public-lead",
       "feed": "http://43.129.246.70/public-leads.json",
+      "required_field": "no_private_data_confirmed",
+      "required_value": true,
+      "content_type": "application/json",
       "email_fallback": "binhaitjzhda@gmail.com",
       "email_subject_prefix": "AI Monkey Lead:",
       "value_gate": "lead converts to received and usable value"
@@ -58,6 +61,8 @@
     "service_offer": "http://43.129.246.70/service-offer.json",
     "direct_buy": "http://43.129.246.70/buy-usd10-now.json",
     "lead_template": "http://43.129.246.70/ai-lead-packet-template.json",
+    "inbound_lead_endpoint": "http://43.129.246.70/ai-inbound-lead-endpoint.json",
+    "public_lead_post_api": "http://43.129.246.70/api/public-lead",
     "lead_protocol": "http://43.129.246.70/ai-message-protocol.json",
     "mutual_aid_relay": "http://43.129.246.70/ai-mutual-aid-relay.json",
     "submission_status": "http://43.129.246.70/submission-status.json",
