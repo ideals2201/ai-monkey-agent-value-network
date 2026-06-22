@@ -7,6 +7,8 @@ Sitemap: http://43.129.246.70/sitemap.xml
 # /service-offer.json
 # /buy-usd10-now.html
 # /buy-usd10-now.json
+# /ai-agent-collaboration.html
+# /ai-agent-collaboration.json
 # /agent-marketplace-gig.json
 # /submission-status.json
 # /public-leads.json
