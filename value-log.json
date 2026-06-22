@@ -1,0 +1,272 @@
+﻿{
+    "schema":  "ai-monkey-value-log-v0",
+    "updated_at":  "2026-06-20T00:00:00+08:00",
+    "status_vocabulary":  [
+                              "not_submitted",
+                              "submitted",
+                              "approved",
+                              "paid_or_usable_value",
+                              "rejected",
+                              "excluded"
+                          ],
+    "privacy_boundary":  "No private address, phone, account identifiers, claim IDs, payment details, KYC/tax data, private screenshots, API keys, tokens, SSH keys, private keys, seed phrases, or OTPs.",
+    "opportunities":  [
+                          {
+                              "id":  "tentoftrials-pr-16",
+                              "title":  "TentOfTrials PR #16",
+                              "status":  "not_submitted",
+                              "value":  {
+                                            "type":  "new_income_or_new_value",
+                                            "amount":  null,
+                                            "currency":  null,
+                                            "description":  "No-spend technical bounty or collaboration candidate; not income."
+                                        },
+                              "official_source":  {
+                                                      "label":  "Public PR reference",
+                                                      "url":  "https://github.com/renaudgenard/TentOfTrials/pull/16"
+                                                  },
+                              "ai_tasks":  [
+                                               "monitor_public_pr_status",
+                                               "summarize_maintainer_feedback",
+                                               "prepare_safe_response_notes"
+                                           ],
+                              "human_tasks":  [
+                                                  "approve_account_owner_actions",
+                                                  "handle_any_payout_or_identity_step"
+                                              ],
+                              "evidence_gate":  "Count only after maintainer acceptance and payout or usable value received.",
+                              "risk_flags":  [
+                                                 "public_link_review_required",
+                                                 "human_private_action_required"
+                                             ],
+                              "next_action":  "Monitor public PR state and wait for verified acceptance or payout evidence.",
+                              "ai_next_action":  "Prepare public-safe response notes if maintainer feedback appears.",
+                              "human_required_action":  "Approve any account-owner, identity, or payout step if requested.",
+                              "updated_at":  "2026-06-20T00:00:00+08:00",
+                              "owner":  "Technical bounties",
+                              "eligible_regions":  [
+                                                       "global_online_or_program_specific"
+                                                   ],
+                              "excluded_regions":  [
+
+                                                   ],
+                              "delivery_regions":  [
+                                                       "online"
+                                                   ],
+                              "payout_regions":  [
+                                                     "unknown_until_program_terms_confirmed"
+                                                 ],
+                              "human_region_required":  "unknown",
+                              "human_help_needed":  [
+                                                        "account_owner",
+                                                        "final_approval",
+                                                        "possible_tax_or_payout_owner"
+                                                    ],
+                              "transferable":  "unknown",
+                              "tax_or_kyc_required":  "unknown",
+                              "cooperation_allowed":  "unknown_until_rules_confirmed",
+                              "region_status":  "unknown",
+                              "visitor_region_match":  "default_hint_only",
+                              "declared_region_match":  "unknown_until_user_declares",
+                              "sort_tags":  [
+                                                "technical",
+                                                "high_value",
+                                                "online_global",
+                                                "needs_human_partner"
+                                            ]
+                          },
+                          {
+                              "id":  "too-good-to-go-cancelled-order",
+                              "title":  "Too Good To Go cancelled order",
+                              "status":  "not_submitted",
+                              "value":  {
+                                            "type":  "recovered_or_preserved_value",
+                                            "amount":  null,
+                                            "currency":  null,
+                                            "description":  "Potential recovered or preserved value from an existing cancelled order; not income; not new income."
+                                        },
+                              "official_source":  {
+                                                      "label":  "Official cancelled-order refund help; private account check required",
+                                                      "url":  "https://tgtg.zendesk.com/hc/en-us/articles/29593460791826-The-store-cancelled-my-order-how-do-I-get-a-refund"
+                                                  },
+                              "ai_tasks":  [
+                                               "prepare_public_safe_refund_checklist",
+                                               "summarize_non_sensitive_evidence_needed"
+                                           ],
+                              "human_tasks":  [
+                                                  "check_account_privately",
+                                                  "enter_order_details_only_in_official_channel"
+                                              ],
+                              "evidence_gate":  "Count only after official refund, credit, or usable replacement is issued.",
+                              "risk_flags":  [
+                                                 "human_private_action_required",
+                                                 "no_claim_id_in_public"
+                                             ],
+                              "next_action":  "Human checks app/account privately and reports only public-safe outcome.",
+                              "ai_next_action":  "Prepare a checklist without requesting order ID, claim ID, address, phone, or payment details.",
+                              "human_required_action":  "Use official app/account support privately if the user chooses to proceed.",
+                              "updated_at":  "2026-06-20T00:00:00+08:00",
+                              "owner":  "Refund and credit routing",
+                              "eligible_regions":  [
+                                                       "account_owner_region"
+                                                   ],
+                              "excluded_regions":  [
+
+                                                   ],
+                              "delivery_regions":  [
+                                                       "account_credit_or_refund_channel"
+                                                   ],
+                              "payout_regions":  [
+                                                     "account_owner_payment_region_if_applicable"
+                                                 ],
+                              "human_region_required":  "local_account_owner",
+                              "human_help_needed":  [
+                                                        "local_account_owner"
+                                                    ],
+                              "transferable":  false,
+                              "tax_or_kyc_required":  false,
+                              "cooperation_allowed":  "account_owner_only",
+                              "region_status":  "needs_human_partner",
+                              "visitor_region_match":  "default_hint_only",
+                              "declared_region_match":  "requires_local_account_owner",
+                              "sort_tags":  [
+                                                "refund",
+                                                "local_asset",
+                                                "low_friction",
+                                                "needs_human_partner"
+                                            ]
+                          },
+                          {
+                              "id":  "h0-zero-stack",
+                              "title":  "H0 Zero Stack",
+                              "status":  "not_submitted",
+                              "value":  {
+                                            "type":  "preparation_or_radar",
+                                            "amount":  null,
+                                            "currency":  null,
+                                            "description":  "Preparation/radar for no-spend AI workflow collaboration; not income."
+                                        },
+                              "official_source":  {
+                                                      "label":  "H0 public challenge page and rules pending eligibility review",
+                                                      "url":  "https://h01.devpost.com/"
+                                                  },
+                              "ai_tasks":  [
+                                               "summarize_public_safe_capability",
+                                               "map_proof_assets",
+                                               "define_collaboration_routes"
+                                           ],
+                              "human_tasks":  [
+                                                  "approve_public_claims",
+                                                  "approve_any_server_or_account_access",
+                                                  "approve_paid_collaboration_terms"
+                                              ],
+                              "evidence_gate":  "Count only after paid collaboration, usable credit, or real customer value is received.",
+                              "risk_flags":  [
+                                                 "server_access_requires_approval",
+                                                 "public_claim_review_required"
+                                             ],
+                              "next_action":  "Prepare public-safe capability and proof notes before any outreach.",
+                              "ai_next_action":  "Draft capability summary and proof needs without exposing server or account details.",
+                              "human_required_action":  "Approve public positioning and any server/account access.",
+                              "updated_at":  "2026-06-20T00:00:00+08:00",
+                              "owner":  "AI workflow / infrastructure",
+                              "eligible_regions":  [
+                                                       "global_online"
+                                                   ],
+                              "excluded_regions":  [
+
+                                                   ],
+                              "delivery_regions":  [
+                                                       "online"
+                                                   ],
+                              "payout_regions":  [
+                                                     "depends_on_collaboration_platform"
+                                                 ],
+                              "human_region_required":  "depends_on_client_or_platform",
+                              "human_help_needed":  [
+                                                        "cloud_server_resource_owner",
+                                                        "subject_matter_expert",
+                                                        "final_approval"
+                                                    ],
+                              "transferable":  "depends_on_contract_terms",
+                              "tax_or_kyc_required":  "depends_on_paid_platform",
+                              "cooperation_allowed":  "yes_if_contract_and_platform_rules_allow",
+                              "region_status":  "unknown",
+                              "visitor_region_match":  "default_hint_only",
+                              "declared_region_match":  "unknown_until_collaboration_context",
+                              "sort_tags":  [
+                                                "technical",
+                                                "online_global",
+                                                "high_value",
+                                                "needs_human_partner"
+                                            ]
+                          },
+                          {
+                              "id":  "ai-workflow-audit-implementation-pack",
+                              "title":  "AI workflow audit + implementation pack",
+                              "status":  "not_submitted",
+                              "value":  {
+                                            "type":  "new_income_or_new_value",
+                                            "amount":  null,
+                                            "currency":  null,
+                                            "description":  "No-spend AI workflow service lead candidate; not income."
+                                        },
+                              "official_source":  {
+                                                      "label":  "Public service card on this IP-test site; public contact alias pending",
+                                                      "url":  null
+                                                  },
+                              "ai_tasks":  [
+                                               "audit_public_workflow",
+                                               "map_safe_automation_steps",
+                                               "prepare_implementation_pack",
+                                               "build_public_safe_proof_pack"
+                                           ],
+                              "human_tasks":  [
+                                                  "provide_public_safe_problem_summary",
+                                                  "approve_scope_and_final_delivery",
+                                                  "handle_private_account_or_contract_steps_only_in_official_tools"
+                                              ],
+                              "evidence_gate":  "Count only after approved client, bounty, grant, usable credit, or delivered collaboration produces verified value.",
+                              "risk_flags":  [
+                                                 "public_contact_alias_pending",
+                                                 "no_private_data_in_first_message",
+                                                 "no_income_until_paid_or_usable_value"
+                                             ],
+                              "next_action":  "Keep service card public-safe and wait for approved contact path before accepting leads.",
+                              "ai_next_action":  "Prepare a public-safe triage checklist for workflow audit leads without requesting credentials or private data.",
+                              "human_required_action":  "Approve public contact path and any client communication before lead intake.",
+                              "updated_at":  "2026-06-21T00:00:00+08:00",
+                              "owner":  "AI workflow services",
+                              "eligible_regions":  [
+                                                       "global_online"
+                                                   ],
+                              "excluded_regions":  [
+
+                                                   ],
+                              "delivery_regions":  [
+                                                       "online"
+                                                   ],
+                              "payout_regions":  [
+                                                     "depends_on_client_platform"
+                                                 ],
+                              "human_region_required":  "none_for_initial_public_safe_triage",
+                              "human_help_needed":  [
+                                                        "scope_owner",
+                                                        "final_approval",
+                                                        "client_or_platform_account_owner"
+                                                    ],
+                              "transferable":  "service_delivery_not_transfer",
+                              "tax_or_kyc_required":  "depends_on_paid_platform",
+                              "cooperation_allowed":  "yes_if_client_platform_contract_rules_allow",
+                              "region_status":  "unknown",
+                              "visitor_region_match":  "default_hint_only",
+                              "declared_region_match":  "unknown_until_client_context",
+                              "sort_tags":  [
+                                                "technical",
+                                                "online_global",
+                                                "high_value",
+                                                "low_friction"
+                                            ]
+                          }
+                      ]
+}

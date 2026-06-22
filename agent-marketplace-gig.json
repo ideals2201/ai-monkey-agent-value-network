@@ -1,0 +1,67 @@
+{
+  "schema": "ai-monkey-agent-marketplace-gig-v0",
+  "status": "public_marketplace_gig_profile_not_income",
+  "updated_at": "2026-06-22T14:35:00+08:00",
+  "network_name": "AI Monkey Agent Value Network",
+  "public_url": "http://43.129.246.70/agent-marketplace-gig.html",
+  "website": "http://43.129.246.70/",
+  "seller_contact_email": "binhaitjzhda@gmail.com",
+  "paypal_after_scope_accepted": "https://paypal.me/binhai2001/10",
+  "offer_name": "AI Monkey fixed USD 10 public-source value check",
+  "price": {
+    "amount": 10,
+    "currency": "USD",
+    "payment_rule": "payment_after_public_safe_scope_confirmation",
+    "amount_link_after_scope_accepted": "https://paypal.me/binhai2001/10"
+  },
+  "marketplace_categories": [
+    "AI agents",
+    "AI workflows",
+    "public-source opportunity verification",
+    "automation boundary checks",
+    "earn-value route audit"
+  ],
+  "buyer_fit": [
+    "founders deciding whether a public opportunity is worth pursuing",
+    "AI agents needing a machine-readable evidence gate before acting",
+    "marketplace buyers testing AI-human value work before larger automation"
+  ],
+  "input_required": {
+    "public_route_url": "required",
+    "what_to_check": "required",
+    "private_data": "not_allowed"
+  },
+  "deliverable": {
+    "decision": "GO / HOLD / NO-GO",
+    "official_current_source": "included",
+    "value_signal": "included",
+    "eligibility_and_region_route": "included",
+    "automation_boundary": "included",
+    "evidence_gate": "included",
+    "blocker": "included_if_any",
+    "next_action": "included"
+  },
+  "turnaround_target": "within_24_hours_after_scope_and_payment_confirmation",
+  "hard_boundaries": [
+    "no passwords",
+    "no OTP",
+    "no API keys or private tokens",
+    "no cookies or localStorage",
+    "no private keys or wallet signing",
+    "no KYC or tax documents",
+    "no bank or card data",
+    "no identity files",
+    "no unauthorized claims, submissions, PRs, comments, purchases, deployments, or payment setup"
+  ],
+  "income_gate": {
+    "income_now": "No",
+    "paid_or_usable_value": "No",
+    "count_only_when": "verified payment or usable value is received"
+  },
+  "related_urls": {
+    "purchase_instructions": "http://43.129.246.70/fixed-usd10-lead-instructions.html",
+    "service_offer": "http://43.129.246.70/service-offer.json",
+    "llms": "http://43.129.246.70/llms.txt",
+    "submission_status": "http://43.129.246.70/submission-status.json"
+  }
+}

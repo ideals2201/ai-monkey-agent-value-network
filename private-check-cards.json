@@ -1,0 +1,187 @@
+{
+  "schema": "ai-monkey-private-check-cards-v0",
+  "updated_at": "2026-06-21T00:00:00+08:00",
+  "site_status": "ip_test_read_only",
+  "purpose": "Help humans and external AI agents run public-safe break-zero checks without sending private data to the website.",
+  "current_verified_value": 0,
+  "paid_or_usable_value": "No",
+  "privacy_boundary": "The user checks official apps or accounts privately. Do not send screenshots, codes, PINs, account IDs, payment details, phone numbers, addresses, identity, KYC, tax, bank, card, wallet, private dashboard text, or recovery information.",
+  "capital_gate": {
+    "position": "strict_roi_stop_loss_policy_only",
+    "rule": "No spend by default. Cost is considered only when expected value is greater than total cost, maximum loss is known, official source is verified, eligibility is real, no gambling or speculation exists, no deposit/new-funds bonus is involved, no sensitive data is handled by agents, and a stop point is defined.",
+    "drop": [
+      "purchase_triggered_cashback",
+      "paid_trials",
+      "subscriptions",
+      "deposit_bonuses",
+      "gas_or_wallet_funding",
+      "cloud_billing_risk",
+      "unverified_ads"
+    ]
+  },
+  "public_return_format": {
+    "route": "short public route name",
+    "account_exists": "yes/no/unknown",
+    "usable_now": "yes/no/unknown",
+    "rough_amount_band": "none/under_1/1_5/5_15/15_50/over_50/unknown",
+    "evidence_gate_met": "yes/no/unknown",
+    "needs_cost": "yes/no/unknown",
+    "max_cost_if_any": "none/under_5/5_20/over_20/unknown"
+  },
+  "cards": [
+    {
+      "id": "google-opinion-rewards-existing-account",
+      "rank": 1,
+      "rung": "break-zero",
+      "route": "Google Opinion Rewards existing app/account",
+      "official_sources": [
+        {
+          "label": "Google Opinion Rewards Help - Earn rewards",
+          "url": "https://support.google.com/opinionrewards/answer/7378183?hl=en"
+        },
+        {
+          "label": "Google Surveys - Google Opinion Rewards",
+          "url": "https://surveys.google.com/google-opinion-rewards/"
+        }
+      ],
+      "value_form": "Google Play or PayPal credit depending on app, account, platform, and region.",
+      "who_checks": "user_private_only",
+      "ai_role": [
+        "explain the official route",
+        "prepare a no-private-data checklist",
+        "classify any user-returned summary without asking for private proof"
+      ],
+      "human_private_action": [
+        "open the official app/account privately",
+        "check whether an existing survey, reward, or payable credit is visible",
+        "report only the public-safe return format"
+      ],
+      "do_not_send": [
+        "screenshots",
+        "codes",
+        "PINs",
+        "account IDs",
+        "payment details",
+        "phone numbers",
+        "addresses",
+        "identity or KYC data",
+        "tax data",
+        "private dashboard text"
+      ],
+      "public_return_format": {
+        "route": "Google Opinion Rewards",
+        "account_exists": "yes/no/unknown",
+        "usable_now": "yes/no/unknown",
+        "rough_amount_band": "none/under_1/1_5/5_15/15_50/over_50/unknown",
+        "evidence_gate_met": "yes/no/unknown",
+        "needs_cost": "no/unknown",
+        "max_cost_if_any": "none/unknown"
+      },
+      "evidence_gate": "Value counts only when Play credit, PayPal credit, or another official usable reward is visible and usable in the user's own official account.",
+      "status": "needs_user_private_check",
+      "income_status": "not_income_until_usable"
+    },
+    {
+      "id": "microsoft-rewards-existing-points",
+      "rank": 2,
+      "rung": "break-zero",
+      "route": "Microsoft Rewards existing points",
+      "official_sources": [
+        {
+          "label": "Microsoft Rewards about page",
+          "url": "https://www.microsoft.com/en-us/rewards/about"
+        },
+        {
+          "label": "Microsoft Support - redeem Rewards points",
+          "url": "https://support.microsoft.com/en-us/account-billing/rewards/how-to-redeem-microsoft-rewards-points"
+        },
+        {
+          "label": "Microsoft Rewards redeem page",
+          "url": "https://rewards.bing.com/redeem/000400000296"
+        }
+      ],
+      "value_form": "Points redeemable for gift cards, account rewards, or other official rewards where available.",
+      "who_checks": "user_private_only",
+      "ai_role": [
+        "explain official redemption constraints",
+        "prepare a no-private-data points-check script for the human",
+        "classify whether the public-safe summary is a rung hit"
+      ],
+      "human_private_action": [
+        "open the official Microsoft Rewards dashboard privately",
+        "check whether existing points are enough for a usable reward",
+        "report only the public-safe return format"
+      ],
+      "do_not_send": [
+        "screenshots",
+        "reward codes",
+        "account IDs",
+        "phone verification details",
+        "payment details",
+        "addresses",
+        "identity or KYC data",
+        "private dashboard text"
+      ],
+      "public_return_format": {
+        "route": "Microsoft Rewards",
+        "account_exists": "yes/no/unknown",
+        "usable_now": "yes/no/unknown",
+        "rough_amount_band": "none/under_1/1_5/5_15/15_50/over_50/unknown",
+        "evidence_gate_met": "yes/no/unknown",
+        "needs_cost": "no/unknown",
+        "max_cost_if_any": "none/unknown"
+      },
+      "evidence_gate": "Value counts only when an official Microsoft reward is issued and usable by the account owner.",
+      "status": "needs_user_private_check",
+      "income_status": "not_income_until_usable"
+    },
+    {
+      "id": "existing-reward-prepaid-gift-platform-balances",
+      "rank": 3,
+      "rung": "break-zero",
+      "route": "Existing reward, prepaid, gift, platform, or payout balances",
+      "official_sources": [
+        {
+          "label": "Official provider accounts only",
+          "url": null
+        }
+      ],
+      "value_form": "Already issued card, wallet, reward, payout, or store balance from official providers such as PayPal, Amazon, Apple, Google Play, Microsoft, Steam, Tremendous, Tango, or Hyperwallet.",
+      "who_checks": "user_private_only",
+      "ai_role": [
+        "provide provider-agnostic privacy boundary",
+        "help classify user-returned public-safe amount band",
+        "route verified usable value to the evidence gate without storing private details"
+      ],
+      "human_private_action": [
+        "open the official provider account privately",
+        "check whether a usable balance, card, reward, or code already exists",
+        "report only the public-safe return format"
+      ],
+      "do_not_send": [
+        "card numbers",
+        "gift codes",
+        "PINs",
+        "claim IDs",
+        "account IDs",
+        "screenshots",
+        "payment details",
+        "addresses",
+        "identity or tax data",
+        "private dashboard text"
+      ],
+      "public_return_format": {
+        "route": "Existing balances",
+        "account_exists": "yes/no/unknown",
+        "usable_now": "yes/no/unknown",
+        "rough_amount_band": "none/under_1/1_5/5_15/15_50/over_50/unknown",
+        "evidence_gate_met": "yes/no/unknown",
+        "needs_cost": "no/unknown",
+        "max_cost_if_any": "none/unknown"
+      },
+      "evidence_gate": "Value counts only when an existing official balance, reward, gift card, code, payout, or credit is usable by the account owner.",
+      "status": "needs_user_private_check",
+      "income_status": "not_income_until_usable"
+    }
+  ]
+}

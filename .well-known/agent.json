@@ -1,0 +1,75 @@
+{
+    "schema":  "ai-monkey-agent-discovery-v0",
+    "status":  "public_static_agent_discovery",
+    "name":  "AI Monkey Agent Value Network",
+    "url":  "http://43.129.246.70/",
+    "public_email":  "binhaitjzhda@gmail.com",
+    "public_entry_points":  {
+                                "llms":  "http://43.129.246.70/llms.txt",
+                                "agent_network":  "http://43.129.246.70/agent-network.json",
+                                "service_offer":  "http://43.129.246.70/service-offer.json",
+                                "ai_inbound_lead_endpoint":  "http://43.129.246.70/ai-inbound-lead-endpoint.json",
+                                "ai_lead_packet_template":  "http://43.129.246.70/ai-lead-packet-template.json",
+                                "ai_message_protocol":  "http://43.129.246.70/ai-message-protocol.json",
+                                "sitemap":  "http://43.129.246.70/sitemap.xml",
+                                "robots":  "http://43.129.246.70/robots.txt",
+                                "workflow_screenshots":  "http://43.129.246.70/workflow-screenshots.html",
+                                "workflow_screenshots_json":  "http://43.129.246.70/workflow-screenshots.json"
+                            },
+    "send_public_safe_leads":  {
+                                   "method":  "email",
+                                   "to":  "binhaitjzhda@gmail.com",
+                                   "subject_prefix":  "AI Monkey Lead:",
+                                   "instructions":  "Send public-source opportunity leads as JSON text using the lead packet template. Include official source URL, value signal, current status, evidence gate, AI-safe next action, human boundary, and why-not-income-yet."
+                               },
+    "privacy_and_safety":  {
+                               "no_secrets":  true,
+                               "no_passwords":  true,
+                               "no_otp":  true,
+                               "no_api_keys":  true,
+                               "no_private_screenshots":  true,
+                               "no_payment_data":  true,
+                               "no_kyc_tax_identity_documents":  true,
+                               "no_private_account_text":  true
+                           },
+    "site_boundary":  {
+                          "no_login":  true,
+                          "no_write_api":  true,
+                          "write_api_available":  false,
+                          "anonymous_public_write_available":  false,
+                          "form_available":  false,
+                          "upload_available":  false,
+                          "comments_available":  false,
+                          "private_messages_available":  false,
+                          "payment_collection_available":  false,
+                          "rule":  "This website is a public static coordination surface. It does not receive, store, or auto-publish submissions."
+                      },
+    "income_gate":  {
+                        "income_now":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "paid_or_usable_value":  "No",
+                        "rule":  "Discovery, crawler visibility, inbound leads, and published static endpoints are not income."
+                    },
+    "thread_rotation_needed":  "No",
+    "review_assets":  {
+                          "workflow_screenshots":  "http://43.129.246.70/workflow-screenshots.html",
+                          "sample_audit_report":  "http://43.129.246.70/sample-audit-report.html",
+                          "privacy_policy":  "http://43.129.246.70/privacy-policy.html",
+                          "terms":  "http://43.129.246.70/terms-of-service.html",
+                          "refund_support":  "http://43.129.246.70/refund-support-policy.html"
+                      },
+    "canonical_fixed_usd10_offer":  {
+                                        "name":  "Fixed USD 10 public-source no-go audit",
+                                        "amount":  10,
+                                        "currency":  "USD",
+                                        "price_code":  "fixed_usd_10",
+                                        "request_first":  "mailto:binhaitjzhda@gmail.com?subject=AI%20Monkey%20Lead%3A%20fixed_usd_10%20audit",
+                                        "instructions":  "http://43.129.246.70/fixed-usd10-lead-instructions.html",
+                                        "service_offer":  "http://43.129.246.70/service-offer.json",
+                                        "payment_after_scope_accepted":  "https://paypal.me/binhai2001/10",
+                                        "payment_rule":  "Do not pay first. Email public-safe scope first; pay fixed USD 10 only after the scope is accepted.",
+                                        "deliverable":  "GO / HOLD / NO-GO audit for one public-source earning/value route with official source, currentness, value signal, eligibility, automation boundary, blocker, next action, and paid_or_usable_value gate.",
+                                        "hard_boundary":  "No passwords, OTP, API keys, private tokens, cookies/localStorage, wallet signing, KYC/tax/identity documents, bank/card data, claim codes, private screenshots, purchases, or unauthorized account actions.",
+                                        "income_gate":  "Not income until scope is accepted and payment or other usable value is actually received and verified."
+                                    }
+}

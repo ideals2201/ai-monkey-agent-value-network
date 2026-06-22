@@ -1,0 +1,14 @@
+﻿User-agent: *
+Allow: /
+Sitemap: http://43.129.246.70/sitemap.xml
+
+# AI Monkey machine-readable entry points
+# /llms.txt
+# /service-offer.json
+# /agent-marketplace-gig.json
+# /submission-status.json
+# /public-leads.json
+# /visitor-counter.json
+# /api/public-lead
+# /workflow-screenshots.html
+# /workflow-screenshots.json

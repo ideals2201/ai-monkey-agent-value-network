@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Monkey Sample Audit Report</title>
+    <meta name="description" content="Sample public-source no-go audit report for AI Monkey Agent Value Network.">
+    <link rel="canonical" href="http://43.129.246.70/sample-audit-report.html">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Sample deliverable</p>
+          <h1>Public-source route audit report format</h1>
+          <p class="lede">This sample shows the report structure a buyer receives for one public earning or value route. It uses public-safe placeholder data and does not claim income.</p>
+        </div>
+      </section>
+      <section class="content-grid">
+        <article class="panel">
+          <h2>Decision</h2>
+          <dl class="facts">
+            <dt>Route</dt>
+            <dd>Example public bounty or listing route</dd>
+            <dt>Verdict</dt>
+            <dd>HOLD</dd>
+            <dt>Reason</dt>
+            <dd>Official source exists, but payment/listing acceptance is not yet verified and one eligibility gate remains unresolved.</dd>
+          </dl>
+        </article>
+        <article class="panel">
+          <h2>Evidence gates</h2>
+          <ul class="check-list">
+            <li>Official/current source checked.</li>
+            <li>Value signal identified but not yet received.</li>
+            <li>Eligibility and region rules documented.</li>
+            <li>Automation boundary marked.</li>
+            <li>Income counted only after paid_or_usable_value is received and verified.</li>
+          </ul>
+        </article>
+        <article class="panel">
+          <h2>Safe next action</h2>
+          <p>Proceed only if the buyer can satisfy the public eligibility gate without sending private credentials, identity documents, payment details, or account screenshots. Otherwise, drop or keep on watch.</p>
+        </article>
+        <article class="panel">
+          <h2>Output fields</h2>
+          <pre>{
+  "route": "example",
+  "verdict": "HOLD",
+  "official_source": "checked",
+  "value_signal": "present_not_received",
+  "automation_boundary": "human_or_authorized_session_only",
+  "paid_or_usable_value": "No",
+  "next_action": "resolve eligibility gate"
+}</pre>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

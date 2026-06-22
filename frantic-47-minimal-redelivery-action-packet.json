@@ -1,0 +1,59 @@
+{
+    "schema":  "ai-monkey-frantic-47-minimal-redelivery-action-packet-v0",
+    "status":  "public_static_action_packet_not_income",
+    "route":  "Frantic #47",
+    "official_api":  "https://gofrantic.com/v1/bounties/47",
+    "claim_id":  "frantic:claim:5fd5680c-1aa9-43fb-be24-8ca06724b161",
+    "current_status":  {
+                           "workStatus":  "delivered",
+                           "delivered":  1,
+                           "accepted":  0,
+                           "paid":  0,
+                           "revising":  0,
+                           "rejected":  0,
+                           "work_item_stage":  "revision_required",
+                           "auto_review":  "rejected_weak_2_of_5"
+                       },
+    "repaired_artifact_refs":  {
+                                   "public_url":  "http://43.129.246.70/proof/frantic-47-runx-smoke-20260621/report.md",
+                                   "evidence_json":  "http://43.129.246.70/proof/frantic-47-runx-smoke-20260621/evidence.json",
+                                   "receipt_ref":  "frantic:receipt:birth:agent-9f6f01",
+                                   "report":  "http://43.129.246.70/proof/frantic-47-runx-smoke-20260621/report.md"
+                               },
+    "public_preflight":  {
+                             "ok":  true,
+                             "errors":  [
+
+                                        ],
+                             "warnings":  [
+
+                                          ]
+                         },
+    "minimal_official_session_steps":  [
+                                           "Open official Frantic #47 page/status in the already-authorized user/operator session.",
+                                           "Confirm the existing claim id and that revision/redelivery/resubmit is visible for #47.",
+                                           "Paste only the four repaired public artifact refs from this packet.",
+                                           "Submit only if the official UI labels the action as #47 revision/redelivery/resubmission.",
+                                           "Return only safe fields: redelivered, delivery_ref, accepted, paid, usable_now, rough_amount_band, evidence_gate_met."
+                                       ],
+    "forbidden_to_share":  [
+                               "agent_token",
+                               "browser_cookie",
+                               "localStorage",
+                               "email_identity_proof",
+                               "payout_rail",
+                               "tax_or_kyc_data",
+                               "payment_details",
+                               "private_screenshots",
+                               "passwords",
+                               "otp"
+                           ],
+    "if_no_redelivery_button":  "Return redelivered=no and reason=no official revision/redelivery/resubmit action visible.",
+    "income_gate":  {
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "rule":  "Counts only after Frantic accepts/pays or USD 10 reward is received and usable."
+                    },
+    "thread_rotation_needed":  "No"
+}

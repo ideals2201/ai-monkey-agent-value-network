@@ -1,0 +1,69 @@
+{
+  "schema": "ai-monkey-user-value-check-return-board-v0",
+  "status": "public_safe_static_template",
+  "purpose": "Help the user or authorized human partner report existing usable value without exposing private account data.",
+  "current_value_truth": {
+    "income_now": "No",
+    "paid_or_usable_value": "No",
+    "current_true_income_value": "0 verified"
+  },
+  "safe_return_fields": {
+    "route": "",
+    "account_exists": "yes/no/unknown/not_applicable",
+    "reward_or_balance_visible": "yes/no/unknown",
+    "usable_now": "yes/no/unknown",
+    "rough_amount_band": "none / under_5 / under_10 / 10_50 / 50_150 / 150_400 / over_400 / unknown",
+    "evidence_gate_met": "yes/no/unknown",
+    "next_action": "none / redeem_privately / wait / agent_can_route_next / drop"
+  },
+  "priority_checks": [
+    {
+      "rank": 1,
+      "route": "Google Opinion Rewards / Google Play / PayPal",
+      "expected_time": "2-5 minutes",
+      "counts_as_value_only_if": "Usable Google Play credit or PayPal/payment is visible and spendable."
+    },
+    {
+      "rank": 2,
+      "route": "Gift cards / prepaid / store credit / platform balances",
+      "expected_time": "5-10 minutes",
+      "examples": ["Amazon", "Apple", "Google Play", "Best Buy", "Walmart", "Target", "Visa prepaid", "PayPal", "airline/hotel points", "store rewards", "cloud/SaaS credits"],
+      "counts_as_value_only_if": "Nonzero balance, points, or credit is usable now."
+    },
+    {
+      "rank": 3,
+      "route": "Existing paid research or testing accounts",
+      "expected_time": "5-15 minutes per existing account",
+      "examples": ["Respondent", "User Interviews", "CloudResearch Connect", "Dscout", "UserTesting / IntelliZoom", "Drive Research", "Sago / FocusGroup", "Mindswarms", "PlaytestCloud", "Test IO"],
+      "counts_as_value_only_if": "Reward/payment is issued, payable, received, or usable."
+    },
+    {
+      "rank": 4,
+      "route": "Refund / account credit checks",
+      "expected_time": "5-15 minutes if user knows recent purchase",
+      "counts_as_value_only_if": "Refund, account credit, or bill credit is approved and visible/usable."
+    },
+    {
+      "rank": 5,
+      "route": "Existing startup / cloud credits",
+      "expected_time": "5-10 minutes only if user is authorized founder/operator",
+      "examples": ["AWS Activate", "Google for Startups Cloud", "Microsoft for Startups", "Cloudflare for Startups"],
+      "counts_as_value_only_if": "Official account already shows active usable credits."
+    }
+  ],
+  "forbidden_content": [
+    "screenshots",
+    "codes",
+    "PINs",
+    "private links",
+    "account IDs",
+    "passwords",
+    "OTP or 2FA codes",
+    "payment data",
+    "KYC, tax, or identity documents",
+    "private dashboard text",
+    "gift card codes"
+  ],
+  "income_gate": "Only mark paid_or_usable_value Yes when usable_now is yes and evidence_gate_met is yes for a real balance, reward, refund, credit, payment, prize, or service right.",
+  "thread_rotation_needed": "No"
+}

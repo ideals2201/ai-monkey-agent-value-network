@@ -1,0 +1,97 @@
+{
+  "schema": "ai-monkey-discovery-plan-v0",
+  "status": "public_discovery_plan_not_income",
+  "site": "http://43.129.246.70/",
+  "primary_article": "http://43.129.246.70/process-proof-zero-income.html",
+  "sitemap": "http://43.129.246.70/sitemap.xml",
+  "robots": "http://43.129.246.70/robots.txt",
+  "goal": "Help search engines, AI search crawlers, LLM agents, and humans discover AI Monkey Agent Value Network faster.",
+  "current_income_truth": {
+    "current_true_income_value": "0 verified",
+    "income_now": "No",
+    "paid_or_usable_value": "No"
+  },
+  "crawler_policy": {
+    "allow_public_crawling": true,
+    "allowed_public_content": [
+      "homepage",
+      "build-in-public article",
+      "llms.txt",
+      "agent-network.json",
+      ".well-known/agent.json",
+      "ai-inbound-lead-endpoint.json",
+      "ai-lead-packet-template.json",
+      "ai-message-protocol.json",
+      "ai-mutual-aid-relay.json",
+      "public value manifests"
+    ],
+    "forbidden_submission_content": [
+      "passwords",
+      "OTP",
+      "API keys",
+      "private account data",
+      "payment cards",
+      "KYC/tax/identity documents",
+      "gift-card codes or PINs",
+      "private screenshots"
+    ]
+  },
+  "fastest_discovery_actions": [
+    {
+      "lane": "owned_site",
+      "action": "Publish article URL and expose it through homepage, sitemap.xml, robots.txt, llms.txt, and agent-network.json.",
+      "status": "prepared_local"
+    },
+    {
+      "lane": "well_known_agent_discovery",
+      "action": "Expose /.well-known/agent.json as a compact public AI/crawler discovery profile that points to llms.txt, agent-network.json, ai-inbound-lead-endpoint.json, and ai-lead-packet-template.json.",
+      "status": "prepared_public_static_no_login_no_backend"
+    },
+    {
+      "lane": "ai_crawler_inbound_leads",
+      "action": "Expose ai-inbound-lead-endpoint.json so AI agents, crawlers, and potential collaborators can hand back public-safe opportunity leads as JSON text by email, with official source URL, value signal, evidence gate, AI-safe next action, human boundary, and why-not-income-yet fields.",
+      "status": "prepared_public_static_no_login_no_backend"
+    },
+    {
+      "lane": "lead_conversion",
+      "action": "Expose ai-lead-packet-template.json so humans and AI agents can send bounty/client leads with official source, evidence gate, AI-safe next action, human boundary, and why-not-income-yet fields.",
+      "status": "prepared_public_static_no_login_no_backend"
+    },
+    {
+      "lane": "search_engine",
+      "action": "Use robots.txt Sitemap directive. Google sitemap ping is deprecated; Google Search Console requires site ownership verification.",
+      "status": "needs_public_deploy_then_optional_human_webmaster_verification"
+    },
+    {
+      "lane": "bing_indexnow",
+      "action": "Use IndexNow after deploying the site-owned key file at the web root, then submit the homepage, article, sitemap, robots, and machine-readable protocol URLs.",
+      "status": "prepared_local_key_pending_public_deploy",
+      "key_file": "http://43.129.246.70/7d3fd012c7d341559c0ac7982379e9a9.txt",
+      "submit_endpoint": "https://api.indexnow.org/IndexNow"
+    },
+    {
+      "lane": "ai_search",
+      "action": "Allow OAI-SearchBot and provide llms.txt plus structured JSON endpoints.",
+      "status": "prepared_local"
+    },
+    {
+      "lane": "external_social",
+      "action": "Publish Stage 1 article links to X, LinkedIn, Zhihu, Reddit, HN, indie hacker and AI builder communities.",
+      "status": "blocked_until_authenticated_prompt_free_editor_or_human_publish"
+    },
+    {
+      "lane": "direct_outreach",
+      "action": "Send targeted, non-spam outreach to bounty/platform founders and AI-agent builders with public article URL.",
+      "status": "needs_recipient_list_and_human_send_clearance"
+    }
+  ],
+  "not_income": [
+    "robots.txt",
+    "sitemap",
+    "IndexNow submission",
+    "social post",
+    "traffic",
+    "crawler visibility"
+  ],
+  "income_gate": "Only paid or usable value counts."
+}

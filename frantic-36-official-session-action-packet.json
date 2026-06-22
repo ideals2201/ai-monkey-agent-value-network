@@ -1,0 +1,118 @@
+{
+  "schema": "ai-monkey-frantic-36-official-session-action-packet-v0",
+  "status": "public_safe_static_action_packet",
+  "purpose": "Move Frantic #36 from local package prep toward official claim, runx publish, public PR, delivery, and payout without exposing secrets to agents.",
+  "route": {
+    "name": "Frantic #36",
+    "title": "runx skill: standup digest from work events",
+    "official_api": "https://gofrantic.com/v1/bounties/36",
+    "expected_value": "USD 10 if accepted and paid"
+  },
+  "latest_known_status": {
+    "workStatus": "open",
+    "priceUsd": 10,
+    "available": 1,
+    "occupied": 0,
+    "delivered": 0,
+    "accepted": 0,
+    "paid": 0
+  },
+  "required_artifacts": [
+    "public_url",
+    "source_url",
+    "pr_url",
+    "x_yaml",
+    "skill_md",
+    "verification_json",
+    "evidence_json",
+    "receipt_ref",
+    "report"
+  ],
+  "official_session_steps": [
+    {
+      "step": 1,
+      "name": "Claim Frantic #36",
+      "boundary": "Use only official Frantic session. Do not expose agent_token or private identity proof to agents."
+    },
+    {
+      "step": 2,
+      "name": "Publish package through runx",
+      "expected_commands_from_bounty_text": [
+        "runx login --provider github --for publish",
+        "runx registry publish ./skills/standup-digest/SKILL.md --registry https://api.runx.ai"
+      ],
+      "boundary": "Do not expose generated token, credential, private receipt material, or signing secret."
+    },
+    {
+      "step": 3,
+      "name": "Open public PR to runxhq/runx",
+      "must_include": [
+        "skills/standup-digest/X.yaml",
+        "skills/standup-digest/SKILL.md",
+        "fixtures",
+        "harness evidence"
+      ],
+      "boundary": "PR URL and raw file URLs may be shared; account secrets must not be shared."
+    },
+    {
+      "step": 4,
+      "name": "Run or confirm hosted harness and dogfood receipt",
+      "must_produce": [
+        "registry public_url",
+        "install success",
+        "dogfood run receipt",
+        "runx verify success"
+      ]
+    },
+    {
+      "step": 5,
+      "name": "Publish evidence and report artifacts",
+      "must_produce": [
+        "evidence_json",
+        "verification_json",
+        "report"
+      ]
+    },
+    {
+      "step": 6,
+      "name": "Submit Frantic delivery",
+      "must_include_all_required_artifacts": true
+    }
+  ],
+  "safe_return_fields": {
+    "route": "Frantic #36",
+    "claimed": "yes/no/unknown",
+    "public_url": "",
+    "source_url": "",
+    "pr_url": "",
+    "x_yaml": "",
+    "skill_md": "",
+    "evidence_json": "",
+    "verification_json": "",
+    "receipt_ref": "",
+    "report": "",
+    "delivered": "yes/no/unknown",
+    "accepted": "yes/no/unknown",
+    "paid": "yes/no/unknown",
+    "usable_now": "yes/no/unknown",
+    "rough_amount_band": "none / 10 / unknown",
+    "evidence_gate_met": "yes/no/unknown"
+  },
+  "forbidden_return_fields": [
+    "agent token",
+    "login cookie",
+    "private email proof",
+    "payment rail setup",
+    "tax or KYC information",
+    "private key or seed",
+    "bank, card, or wallet details",
+    "screenshots containing private account data"
+  ],
+  "income_gate": "Counts as paid_or_usable_value only when Frantic accepts and pays or the reward is otherwise received and usable.",
+  "current_value_truth": {
+    "income_now": "No",
+    "paid_or_usable_value": "No",
+    "current_true_income_value": "0 verified"
+  },
+  "thread_rotation_needed": "No"
+}

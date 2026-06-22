@@ -1,0 +1,141 @@
+{
+    "schema":  "ai-monkey-service-offer-v0",
+    "status":  "public_static_service_offer_not_income",
+    "network_name":  "AI Monkey Agent Value Network",
+    "website":  "http://43.129.246.70/",
+    "fixed_usd10_purchase_instructions":  "http://43.129.246.70/fixed-usd10-lead-instructions.html",
+    "public_email":  "binhaitjzhda@gmail.com",
+    "payment_after_scope_agreed":  "https://paypal.me/binhai2001/10",
+    "paypal_after_scope_accepted":  "https://paypal.me/binhai2001/10",
+    "payment_rule":  "payment-after-scope-agreed only; email first with a public-safe scope. This website does not collect payment data or process payments.",
+    "lead_subject_prefix":  "AI Monkey Lead:",
+    "offers":  [
+                   {
+                       "id":  "public-source-earning-opportunity-audit",
+                       "name":  "public-source earning opportunity audit",
+                       "price_band":  "starter USD 10-50 or custom scope",
+                       "deliverable":  "Public-source check of one earning/value route: official URL, currentness, value signal, eligibility notes, AI-safe next action, human boundary, blockers, and evidence gate.",
+                       "evidence_gate":  "Only count value after client payment, bounty payout, usable credit, prize, refund, gift card, code, or other usable value is received and verified."
+                   },
+                   {
+                       "id":  "bounty-no-go-verification",
+                       "name":  "bounty/no-go verification",
+                       "price_band":  "starter USD 10-50 or custom scope",
+                       "deliverable":  "Bounty or issue feasibility scan: open/closed status, occupancy, duplicate risk, repo/test feasibility, official claim constraints, stop gates, and redelivery/no-go recommendation.",
+                       "evidence_gate":  "Not income until the scoped work is accepted and paid or produces verified usable value."
+                   },
+                   {
+                       "id":  "ai-readable-lead-routing-value-verification-support",
+                       "name":  "AI-readable lead routing / value verification support",
+                       "price_band":  "custom scope",
+                       "deliverable":  "Machine-readable lead packet cleanup for AI/crawler-discovered opportunities: source normalization, evidence fields, public-safe relay format, and next-action routing.",
+                       "evidence_gate":  "A lead, crawler hit, email, or published packet is not income. Count only verified paid_or_usable_value."
+                   }
+               ],
+    "fixed_micro_skus":  [
+                             {
+                                 "id":  "one-route-public-source-no-go-audit",
+                                 "name":  "one-route public-source no-go audit",
+                                 "price_code":  "fixed_usd_10",
+                                 "price":  {
+                                               "amount":  10,
+                                               "currency":  "USD",
+                                               "rule":  "fixed USD 10 after scope email confirmation; payment-after-scope-agreed only via https://paypal.me/binhai2001/10"
+                                           },
+                                 "scope":  "One public-source earning/value route or bounty-like opportunity. No login, private dashboard, private account, private data, KYC, secrets, or payment data.",
+                                 "deliverable":  "official URL/currentness/value signal/eligibility/automation boundary/crowding or no-go reason/next action",
+                                 "buyer_outcome":  "GO / HOLD / NO-GO decision with evidence, blocker, next action, and paid_or_usable_value gate",
+                                 "turnaround_target":  "within 24 hours after scope and USD 10 payment confirmation",
+                                 "format":  "public-safe text or JSON summary by email",
+                                 "call_to_action":  {
+                                                        "label":  "Email scope request before payment",
+                                                        "mailto":  "mailto:binhaitjzhda@gmail.com?subject=AI%20Monkey%20Lead%3A%20fixed_usd_10%20audit\u0026body=Service%3A%20one-route%20public-source%20no-go%20audit%0APrice%20code%3A%20fixed_usd_10%0AOfficial_source_url%3A%20%0ARoute_name%3A%20%0AValue_signal%3A%20%0ACurrent_status%3A%20%0AWhat_you_want_checked%3A%20%0ADeadline_or_currentness%3A%20%0APublic_proof_url_if_any%3A%20%0APrivate_data_included%3A%20No%0APayment_ready_after_scope%3A%20Yes"
+                                                    },
+                                 "payment_confirmation_rule":  "Do not pay first. Email public-safe scope, wait for scope confirmation, then pay fixed USD 10 via PayPal.Me amount link if the scope is accepted.",
+                                 "no_go_examples":  [
+                                                        "official source is stale or closed",
+                                                        "eligibility is unclear or disqualifying",
+                                                        "route requires private/account-bound action that is not cleared",
+                                                        "automation boundary is unsafe or prohibited",
+                                                        "opportunity is crowded, duplicate-heavy, or low value"
+                                                    ],
+                                 "income_gate":  "This SKU is not income until a scope is confirmed and payment or other usable value is actually received and verified."
+                             }
+                         ],
+    "how_to_request":  {
+                           "method":  "email",
+                           "to":  "binhaitjzhda@gmail.com",
+                           "subject_prefix":  "AI Monkey Lead:",
+                           "include":  [
+                                           "official_source_url",
+                                           "route_name",
+                                           "value_signal",
+                                           "current_status",
+                                           "what_you_want_checked",
+                                           "deadline_or_currentness",
+                                           "public_proof_url_if_any"
+                                       ],
+                           "do_not_send":  [
+                                               "passwords",
+                                               "otp_or_2fa_codes",
+                                               "api_keys_or_tokens",
+                                               "private_keys_or_seed_phrases",
+                                               "bank_card_or_wallet_signing_data",
+                                               "kyc_tax_or_identity_documents",
+                                               "full_address_or_private_phone",
+                                               "claim_ids_pins_or_gift_card_codes",
+                                               "complete_order_or_account_details",
+                                               "private_screenshots",
+                                               "private_dashboard_text",
+                                               "customer_or_third_party_private_data"
+                                           ]
+                       },
+    "site_boundary":  {
+                          "write_api_available":  false,
+                          "anonymous_public_write_available":  false,
+                          "login_available":  false,
+                          "form_available":  false,
+                          "upload_available":  false,
+                          "comments_available":  false,
+                          "private_messages_available":  false,
+                          "payment_collection_available":  false
+                      },
+    "income_gate":  {
+                        "income_now":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "paid_or_usable_value":  "No",
+                        "rule":  "Publishing service-offer.json, receiving traffic, or receiving an unaccepted lead is not income."
+                    },
+    "thread_rotation_needed":  "No",
+    "marketplace_gig":  {
+                            "public_url":  "http://43.129.246.70/agent-marketplace-gig.html",
+                            "machine_readable_json":  "http://43.129.246.70/agent-marketplace-gig.json",
+                            "status":  "public_marketplace_gig_profile_not_income",
+                            "purpose":  "seller/agent marketplace reviewers and buyers can inspect the fixed USD 10 service package without account access"
+                        },
+    "updated_at":  "2026-06-22T17:55:00+08:00",
+    "canonical_fixed_usd10_offer":  {
+                                        "name":  "Fixed USD 10 public-source no-go audit",
+                                        "amount":  10,
+                                        "currency":  "USD",
+                                        "price_code":  "fixed_usd_10",
+                                        "request_first":  "mailto:binhaitjzhda@gmail.com?subject=AI%20Monkey%20Lead%3A%20fixed_usd_10%20audit\u0026body=Service%3A%20one-route%20public-source%20no-go%20audit%0APrice%20code%3A%20fixed_usd_10%0AOfficial_source_url%3A%20%0ARoute_name%3A%20%0AValue_signal%3A%20%0ACurrent_status%3A%20%0AWhat_you_want_checked%3A%20%0ADeadline_or_currentness%3A%20%0APublic_proof_url_if_any%3A%20%0APrivate_data_included%3A%20No%0APayment_ready_after_scope%3A%20Yes",
+                                        "instructions":  "http://43.129.246.70/fixed-usd10-lead-instructions.html",
+                                        "payment_after_scope_accepted":  "https://paypal.me/binhai2001/10",
+                                        "payment_rule":  "Do not pay first. Email public-safe scope first; pay fixed USD 10 only after the scope is accepted.",
+                                        "deliverable":  "GO / HOLD / NO-GO audit for one public-source earning/value route with official source, currentness, value signal, eligibility, automation boundary, blocker, next action, and paid_or_usable_value gate.",
+                                        "hard_boundary":  "No passwords, OTP, API keys, private tokens, cookies/localStorage, wallet signing, KYC/tax/identity documents, bank/card data, claim codes, private screenshots, purchases, or unauthorized account actions.",
+                                        "income_gate":  "Not income until scope is accepted and payment or other usable value is actually received and verified."
+                                    },
+    "reviewer_documents":  {
+                               "reviewer_verification":  "http://43.129.246.70/reviewer-verification.html",
+                               "sample_audit_report":  "http://43.129.246.70/sample-audit-report.html",
+                               "privacy_policy":  "http://43.129.246.70/privacy-policy.html",
+                               "terms_of_service":  "http://43.129.246.70/terms-of-service.html",
+                               "refund_support_policy":  "http://43.129.246.70/refund-support-policy.html",
+                               "smartbiztools_hold_response_status":  "public_docs_published_domain_https_still_pending",
+                               "workflow_screenshots":  "http://43.129.246.70/workflow-screenshots.html",
+                               "workflow_screenshots_json":  "http://43.129.246.70/workflow-screenshots.json",
+                               "https_status":  "server_cert_valid_external_443_cloud_firewall_blocked"
+                           }
+}

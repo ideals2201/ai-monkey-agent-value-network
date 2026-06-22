@@ -1,0 +1,106 @@
+{
+  "schema": "ai-monkey-frantic-36-official-gate-action-packet-v0",
+  "status": "local_public_safe_replacement_packet_not_income",
+  "route": "Frantic #36",
+  "title": "runx skill: standup digest from work events",
+  "official_api": "https://gofrantic.com/v1/bounties/36",
+  "amount_usd": 10,
+  "current_status": {
+    "checked_at_cst": "2026-06-22 08:54",
+    "workStatus": "open",
+    "available": 1,
+    "occupied": 0,
+    "delivered": 0,
+    "accepted": 0,
+    "paid": 0,
+    "claim_state": "requires_identity",
+    "claim_requires": [
+      "agent_kid",
+      "agent_token",
+      "verified_email_or_runx_github_identity"
+    ]
+  },
+  "local_package": {
+    "package_root": "D:\\AImonkey1\\work\\frantic-36-standup-digest-local",
+    "manifest": "D:\\AImonkey1\\work\\frantic-36-standup-digest-local\\reports\\frantic-36-public-package-manifest.md",
+    "manifest_sha256": "f28e00cf29159af132daffbf98dd6f747a3ab8a95874776c2084c9947da8cb24",
+    "readiness": "D:\\AImonkey1\\work\\frantic-36-standup-digest-local\\reports\\frantic-36-public-pr-package-readiness.md",
+    "source_map": "D:\\AImonkey1\\work\\frantic-36-standup-digest-local\\reports\\frantic-36-source-map.md",
+    "public_safe_zip": "D:\\AImonkey1\\work\\frantic-36-standup-digest-local\\dist\\frantic-36-standup-digest-public-safe-package-20260622-0838.zip",
+    "public_safe_zip_bytes": 15917,
+    "public_safe_zip_sha256": "f2ff21b9a9ad2126db8bf6e99da05e52f7a42757c2235aa2593602004fc2d296",
+    "verifier_command": "node .\\scripts\\verify-local.mjs",
+    "verifier_status": "PASS",
+    "checked_at": "2026-06-22T00:50:37.994Z",
+    "secret_marker_scan": "no_matches"
+  },
+  "minimal_official_session_actions": [
+    "Claim Frantic #36 only in an authorized Frantic official session if #36 is still open and available.",
+    "Provide Frantic-required identity/contact proof only through official UI; do not send token, cookie, localStorage, password, OTP, email proof, or identity material to agents.",
+    "In authorized runx/GitHub publishing session, publish exact package name standup-digest only if operator accepts account/publication risk.",
+    "Create public source repository/branch/commit containing the local package files.",
+    "Open public PR to runxhq/runx containing SKILL.md, X.yaml, run.mjs, fixtures, and harness/evidence files.",
+    "Produce live registry public_url, fixed source_url, pr_url, raw x_yaml, raw skill_md, public evidence_json, public verification_json, receipt_ref, and public report.",
+    "Run Frantic preflight against those refs.",
+    "Deliver #36 through Frantic official session only if preflight passes."
+  ],
+  "safe_return_fields": [
+    "claim_submitted",
+    "claim_id_or_ref",
+    "public_url",
+    "source_url",
+    "pr_url",
+    "x_yaml",
+    "skill_md",
+    "evidence_json",
+    "verification_json",
+    "receipt_ref",
+    "report",
+    "preflight_ok",
+    "delivered",
+    "delivery_ref",
+    "accepted",
+    "paid",
+    "usable_now",
+    "rough_amount_band",
+    "evidence_gate_met",
+    "non_sensitive_error"
+  ],
+  "stop_gates": [
+    "#36 is no longer open/available",
+    "claim requires token/cookie/session data to be copied outside official UI",
+    "runx publish requires exposing credentials to agents",
+    "public PR would include secrets/private data/account material",
+    "preflight fails",
+    "payout setup requires payment/KYC/tax/address/bank/wallet data; user/operator handles privately"
+  ],
+  "forbidden_to_share": [
+    "agent_token",
+    "browser_cookie",
+    "localStorage",
+    "password",
+    "otp",
+    "email_identity_proof",
+    "payout_rail",
+    "tax_or_kyc_data",
+    "payment_details",
+    "bank_card",
+    "wallet_seed",
+    "private_screenshots"
+  ],
+  "income_gate": {
+    "income_now": "No",
+    "paid_or_usable_value": "No",
+    "current_true_income_value": "0 verified",
+    "rule": "Counts only after Frantic accepts/pays or USD 10 reward is received and usable."
+  },
+  "public_listing_status": {
+    "submitted_entries": 22,
+    "public_listing_verified_count": 0,
+    "lead_received_count": 0,
+    "payment_received_count": 0,
+    "latest_directory": "TheseAItools",
+    "latest_status": "email_sent_pending_review"
+  },
+  "thread_rotation_needed": "No"
+}

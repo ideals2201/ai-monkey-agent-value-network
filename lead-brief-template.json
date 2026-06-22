@@ -1,0 +1,40 @@
+{
+  "template_id": "ai-monkey-public-safe-lead-brief-v1",
+  "status": "public_safe_template_only",
+  "purpose": "Help a potential client, partner, or external AI agent prepare a safe first brief for AI workflow audit and implementation work without sending private data.",
+  "summary_public_safe": "[Describe the workflow bottleneck in 3-5 public-safe sentences. Do not include account numbers, claim IDs, private screenshots, customer records, personal addresses, private phone numbers, payment details, or credentials.]",
+  "official_or_public_links": [
+    "[Official documentation, public issue, public repository, public challenge page, or public policy link]",
+    "[Optional second public link]"
+  ],
+  "workflow_bottleneck": "[What is slow, repetitive, risky, or blocked? Keep it public-safe.]",
+  "desired_outcome": "[What useful result should exist after the audit or implementation pack? Example: checklist, PR, script, QA report, evidence pack, automation design, or monitored status board.]",
+  "what_ai_can_do": [
+    "Analyze public rules, docs, issues, repositories, or workflows.",
+    "Prepare a public-safe workflow map, checklist, code patch, QA plan, evidence pack, or status monitor.",
+    "Identify what information is missing and what must remain private."
+  ],
+  "what_human_approves": [
+    "Approve scope, priority, and final delivery.",
+    "Operate any private account, official submission, payment, KYC, tax, identity, or signature step inside the official tool only.",
+    "Confirm any legal eligibility, residency, address, phone, device, shipping, or payout requirement privately."
+  ],
+  "forbidden_private_data": [
+    "password",
+    "OTP",
+    "private key",
+    "seed phrase",
+    "API key",
+    "token",
+    "bank or card data",
+    "identity document or number",
+    "private address",
+    "private phone number",
+    "claim ID",
+    "order screenshot",
+    "tax document",
+    "KYC document"
+  ],
+  "evidence_gate": "No value is counted until a client approval, paid task, bounty, grant, usable credit, gift card, prize, or delivered collaboration produces verified paid_or_usable_value.",
+  "next_step_after_contact_approval": "After a public contact alias is approved, send only this public-safe brief first. The first-release site still does not collect forms, uploads, payments, accounts, or private messages."
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "ai-monkey-result-update-template-v0",
+  "updated_at": "2026-06-21T00:00:00+08:00",
+  "site_status": "ip_test_read_only",
+  "purpose": "Provide a no-form, public-safe result update format for break-zero checks and service lead follow-up.",
+  "current_verified_value": 0,
+  "paid_or_usable_value": "No",
+  "public_email_subject": "AI Monkey public-safe result update",
+  "allowed_result_states": [
+    "rung_hit",
+    "no_hit",
+    "needs_user_private_check",
+    "drop_spend_required"
+  ],
+  "public_safe_update_template": {
+    "route": "short public route name",
+    "result_state": "rung_hit/no_hit/needs_user_private_check/drop_spend_required",
+    "usable_now": "yes/no/unknown",
+    "rough_amount_band": "none/under_1/1_5/5_15/15_50/over_50/unknown",
+    "evidence_gate_met": "yes/no/unknown",
+    "needs_cost": "yes/no/unknown",
+    "max_cost_if_any": "none/under_5/5_20/over_20/unknown",
+    "public_note": "one sentence, no private data"
+  },
+  "do_not_send": [
+    "passwords",
+    "OTP",
+    "private keys",
+    "seed phrases",
+    "API keys",
+    "bank or card data",
+    "wallet signing requests",
+    "KYC",
+    "tax files",
+    "identity files",
+    "full addresses",
+    "private phone numbers",
+    "claim IDs",
+    "order IDs",
+    "complete order data",
+    "reward codes",
+    "gift card numbers",
+    "PINs",
+    "private screenshots",
+    "private dashboard text"
+  ],
+  "evidence_gate": {
+    "rung_hit": "Use only when cash, usable credit, gift card, prize, refund, code, service payment, or other usable value is actually received and can be verified without exposing private data.",
+    "no_hit": "Use when the official/private check found no usable value.",
+    "needs_user_private_check": "Use when the user must privately check an official account or app before any status can change.",
+    "drop_spend_required": "Use when the route requires purchase, subscription, paid trial, deposit, gambling, gas, cloud spend, or unapproved cost."
+  },
+  "next_routing": {
+    "rung_hit": "Do not publish private proof. Route to human verification for paid_or_usable_value decision.",
+    "no_hit": "Keep route as not_submitted or no_hit; continue next no-spend path.",
+    "needs_user_private_check": "Give the human the relevant private-check card and wait for public-safe summary.",
+    "drop_spend_required": "Exclude from break-zero unless user explicitly approves cost and ROI/stop-loss gate."
+  },
+  "read_only_boundary": "This is a static template. The website does not submit, store, upload, process payments, create accounts, or collect private data."
+}
