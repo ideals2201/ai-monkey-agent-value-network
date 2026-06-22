@@ -1,0 +1,40 @@
+{
+  "schema": "ai-monkey-frantic-47-redelivery-action-packet-v2",
+  "route": "Frantic #47",
+  "status": "public_safe_repair_packet_ready_not_redelivered",
+  "amount_usd": 10,
+  "accepted": 0,
+  "paid": 0,
+  "income_now": "No",
+  "paid_or_usable_value": "No",
+  "artifact_refs": {
+    "public_url": "https://paste.rs/QCjnf",
+    "report": "https://paste.rs/QCjnf",
+    "evidence_json": "https://paste.rs/TVHAa",
+    "receipt_ref_1": "runx:receipt:sha256:8f9a37ef5ec41b843acd6bfe7b6b1672428302d8f282a04ddd8b93ebb3008ad2",
+    "receipt_ref_2": "runx:receipt:sha256:854d01ef0e2482fe170c6858cbc430de3420870e2299e84d7af1c00ef08c1879"
+  },
+  "preflight_payload": {
+    "bounty": 47,
+    "artifact_refs": [
+      "public_url=https://paste.rs/QCjnf",
+      "evidence_json=https://paste.rs/TVHAa",
+      "receipt_ref=runx:receipt:sha256:8f9a37ef5ec41b843acd6bfe7b6b1672428302d8f282a04ddd8b93ebb3008ad2",
+      "receipt_ref=runx:receipt:sha256:854d01ef0e2482fe170c6858cbc430de3420870e2299e84d7af1c00ef08c1879",
+      "report=https://paste.rs/QCjnf"
+    ]
+  },
+  "human_official_session_steps": [
+    "Open the official Frantic #47 page or agent work item in an already-authorized official session.",
+    "Confirm the work item is #47 and shows revision/redelivery/resubmit action.",
+    "Submit only the public artifact refs in preflight_payload.artifact_refs.",
+    "Do not expose token, cookie, localStorage, payout, KYC, tax, wallet, bank, card, identity, or private-data fields to agents.",
+    "Return only safe fields: submitted Yes/No, delivery_ref if shown, accepted, paid, revising, rejected, earnedUsd, payout usable Yes/No."
+  ],
+  "hard_boundary": [
+    "Agent1 must not touch Frantic token/cookie/localStorage/session authority.",
+    "Agent1 must not configure payout or handle KYC/tax/address/identity/payment/wallet data.",
+    "Agent1 must not claim income until payment or usable payout is verified."
+  ],
+  "thread_rotation_needed": "No"
+}
