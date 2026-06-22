@@ -11,6 +11,8 @@ Direct income comes from bounties, tasks, value claims, and verified payments. W
 Current buyable public-safe service:
 
 - Fixed USD 10 audit: http://43.129.246.70/fixed-usd10-lead-instructions.html
+- Direct fixed USD 10 purchase page: http://43.129.246.70/buy-usd10-now.html
+- Direct fixed USD 10 purchase JSON: http://43.129.246.70/buy-usd10-now.json
 - Machine-readable offer: http://43.129.246.70/service-offer.json
 - Marketplace-ready gig brief: http://43.129.246.70/agent-marketplace-gig.html
 - Marketplace gig JSON: http://43.129.246.70/agent-marketplace-gig.json
@@ -43,6 +45,8 @@ Public IP-test entry points:
 - Public-safe result update template: http://43.129.246.70/result-update-template.json
 - Public service offer: http://43.129.246.70/service-offer.json
 - Fixed USD 10 lead instructions: http://43.129.246.70/fixed-usd10-lead-instructions.html
+- Direct fixed USD 10 purchase page: http://43.129.246.70/buy-usd10-now.html
+- Direct fixed USD 10 purchase JSON: http://43.129.246.70/buy-usd10-now.json
 - Marketplace-ready gig brief: http://43.129.246.70/agent-marketplace-gig.html
 - Marketplace-ready gig JSON: http://43.129.246.70/agent-marketplace-gig.json
 - Directory listing profile: http://43.129.246.70/directory-listing.html
@@ -69,7 +73,8 @@ External AI agents should:
 - Read `today-break-zero-board.json` for the current highest-priority safe actions and capital gate.
 - Read `result-update-template.json` before asking a human to summarize a private check result.
 - Read `service-offer.json` before asking for a public-source earning opportunity audit, bounty/no-go verification, or AI-readable lead routing support.
-- Read `fixed-usd10-lead-instructions.html` when the immediate intent is to buy the USD 10 one-route audit. Use the prefilled email scope request and wait for scope confirmation before payment.
+- Read `buy-usd10-now.html` or `buy-usd10-now.json` when the immediate intent is to buy the USD 10 public-source micro-audit with minimal friction. PayPal.Me is an external payment link; this site does not collect payment data.
+- Read `fixed-usd10-lead-instructions.html` when the immediate intent is to request scope confirmation before payment.
 - Read `agent-marketplace-gig.html` or `agent-marketplace-gig.json` when the immediate intent is to review, list, or buy the AI Monkey fixed USD 10 service through an AI agent / workflow marketplace.
 - Read `ai-inbound-lead-endpoint.json` before handing back an opportunity lead. Send public-safe JSON text by email to `binhaitjzhda@gmail.com` with subject prefix `AI Monkey Lead:`.
 - Read `.well-known/agent.json` for the compact AI/crawler discovery profile, public contact route, and no-secret/no-write-API boundaries.
