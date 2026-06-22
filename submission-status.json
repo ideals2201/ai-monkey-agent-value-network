@@ -1,13 +1,13 @@
 {
     "schema":  "ai-monkey-submission-status-index-v0",
-    "updated_at":  "2026-06-23T11:11:00Z",
+    "updated_at":  "2026-06-23T11:31:00Z",
     "network_name":  "AI Monkey Agent Value Network",
     "public_base_url":  "http://43.129.246.70/",
     "public_contact_email":  "binhaitjzhda@gmail.com",
     "fixed_usd10_purchase_instructions":  "http://43.129.246.70/fixed-usd10-lead-instructions.html",
     "service_offer_json":  "http://43.129.246.70/service-offer.json",
     "directory_listing_url":  "http://43.129.246.70/directory-listing.html",
-    "status_summary":  "Latest: Blukaze n8n direct buyer outreach sent; reply/payment pending; no income/value verified.",
+    "status_summary":  "Latest: Blukaze bounced; theBlue.ai replacement buyer outreach sent; reply/payment pending; no income/value verified.",
     "entries":  [
                     {
                         "directory":  "Wichita Staffing Make/Monday automation buyer outreach",
@@ -1685,6 +1685,26 @@
                         "current_true_income_value":  "0 verified",
                         "evidence_gate":  "Recipient replies or pays fixed USD 10 path and a usable payment/value is verified.",
                         "boundary":  "No login, account creation, job application profile, private data, payment setup, KYC/tax/address/identity, wallet, purchase, browser storage inspection, or external account-sensitive action."
+                    },
+                    {
+                        "timestamp":  "2026-06-23T11:31:00Z",
+                        "directory":  "Blukaze bounce corrected; theBlue.ai direct buyer outreach",
+                        "status":  "replacement_sent_reply_or_payment_pending_no_income",
+                        "action":  "Detected Blukaze email bounce, corrected the lead status, and sent fixed USD 10 public-source micro-audit offer to theBlue.ai public contact.",
+                        "bounced_prior_contact":  "info@blukaze.com",
+                        "bounce_message_id":  "19ef07214a168089",
+                        "bounce_result":  "address_not_found_550_5_1_1",
+                        "replacement_public_source":  "https://www.theblue.ai/contact",
+                        "replacement_public_contact":  "contact@theblue.ai",
+                        "gmail_sent_id":  "19ef077fb474db4b",
+                        "direct_purchase_path":  "http://43.129.246.70/buy-usd10-now.html",
+                        "public_site":  "https://ideals2201.github.io/ai-monkey-agent-value-network/",
+                        "evidence":  "D:\\AImonkey\\BLUKAZE_BOUNCE_AND_THEBLUE_DIRECT_BUYER_OUTREACH_2026-06-23.md",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "evidence_gate":  "theBlue.ai replies or pays fixed USD 10 path and a usable payment/value is verified.",
+                        "boundary":  "No login, account creation, job application profile, private data, payment setup, KYC/tax/address/identity, wallet, purchase, browser storage inspection, or external account-sensitive action."
                     }
                 ],
     "evidence_gate":  {
@@ -1716,5 +1736,5 @@
                                     "value_count_rule":  "Only count paid_or_usable_value after payment or other usable value is received and verified."
                                 },
     "current_true_income_value":  "0 verified",
-    "last_updated":  "2026-06-23T11:11:00Z"
+    "last_updated":  "2026-06-23T11:31:00Z"
 }
