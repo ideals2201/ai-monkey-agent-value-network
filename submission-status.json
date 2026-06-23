@@ -1,14 +1,30 @@
 {
     "schema":  "ai-monkey-submission-status-index-v0",
-    "updated_at":  "2026-06-23T10:20:00Z",
+    "updated_at":  "2026-06-23T10:36:00Z",
     "network_name":  "AI Monkey Agent Value Network",
     "public_base_url":  "http://43.129.246.70/",
     "public_contact_email":  "binhaitjzhda@gmail.com",
     "fixed_usd10_purchase_instructions":  "http://43.129.246.70/fixed-usd10-lead-instructions.html",
     "service_offer_json":  "http://43.129.246.70/service-offer.json",
     "directory_listing_url":  "http://43.129.246.70/directory-listing.html",
-    "status_summary":  "Public submission, RSS discovery, and conversion infrastructure active; Ping-O-Matic RSS update ping returned success; no verified paid_or_usable_value yet.",
+    "status_summary":  "Public submission, RSS/WebSub discovery, and conversion infrastructure active; WebSub RSS publish notifications returned HTTP 204; no verified paid_or_usable_value yet.",
     "entries":  [
+                    {
+                        "timestamp":  "2026-06-23T10:36:00Z",
+                        "directory":  "WebSub hub RSS publish notification",
+                        "status":  "rss_publish_notification_accepted_no_income",
+                        "action":  "Declared WebSub hub in AI Monkey RSS feeds and published feed update notifications to the public WebSub hub.",
+                        "public_source":  "https://pubsubhubbub.appspot.com/",
+                        "submitted_url":  "http://43.129.246.70/feed.xml",
+                        "category":  "WebSub/RSS crawler and subscriber discovery",
+                        "result":  "HTTP 204 for feed.xml and HTTP 204 for rss.xml publish notifications.",
+                        "evidence":  "D:\\AImonkey\\WEBSUB_RSS_PUBLISH_NOTIFICATION_2026-06-23.md",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "evidence_gate":  "WebSub hub accepts feed update notification -\u003e subscribers/crawlers discover product/service route -\u003e buyer pays or usable value is received -\u003e paid_or_usable_value is verified.",
+                        "boundary":  "No login, password, OTP, cookie, localStorage, token, payment, KYC/tax, bank/card, wallet, purchase, captcha, or private-data handling."
+                    },
                     {
                         "timestamp":  "2026-06-23T10:20:00Z",
                         "directory":  "Ping-O-Matic RSS update ping",
@@ -2247,5 +2263,5 @@
                                     "value_count_rule":  "Only count paid_or_usable_value after payment or other usable value is received and verified."
                                 },
     "current_true_income_value":  "0 verified",
-    "last_updated":  "2026-06-23T18:20:00+08:00"
+    "last_updated":  "2026-06-23T18:36:00+08:00"
 }
