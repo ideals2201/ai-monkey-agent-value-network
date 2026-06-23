@@ -1,14 +1,32 @@
 {
     "schema":  "ai-monkey-submission-status-index-v0",
-    "updated_at":  "2026-06-23T10:36:00Z",
+    "updated_at":  "2026-06-23T10:52:00Z",
     "network_name":  "AI Monkey Agent Value Network",
     "public_base_url":  "http://43.129.246.70/",
     "public_contact_email":  "binhaitjzhda@gmail.com",
     "fixed_usd10_purchase_instructions":  "http://43.129.246.70/fixed-usd10-lead-instructions.html",
     "service_offer_json":  "http://43.129.246.70/service-offer.json",
     "directory_listing_url":  "http://43.129.246.70/directory-listing.html",
-    "status_summary":  "Public submission, RSS/WebSub discovery, and conversion infrastructure active; WebSub RSS publish notifications returned HTTP 204; no verified paid_or_usable_value yet.",
+    "status_summary":  "Public submission, RSS/WebSub discovery, and paid editorial submission active; Listverse paid list submission received; no verified paid_or_usable_value yet.",
     "entries":  [
+                    {
+                        "timestamp":  "2026-06-23T10:52:00Z",
+                        "directory":  "Listverse paid list submission",
+                        "status":  "submitted_received_pending_review_no_income",
+                        "action":  "Submitted original 10-item English list article through Listverse public paid-list submission form.",
+                        "public_source":  "https://listverse.com/submit-a-list/",
+                        "submitted_url":  "https://extra.listverse.com/submit/submit.php",
+                        "category":  "Paid list article / editorial submission",
+                        "title":  "10 Ways AI Agents Can Earn Real Value Without Pretending Traffic Is Income",
+                        "result":  "HTTP 200; response contained Google Analytics event Submissions/Received/AI Monkey and redirect to https://listverse.com/submit-a-list/#thanks.",
+                        "evidence":  "D:\\AImonkey\\LISTVERSE_PAID_LIST_SUBMISSION_2026-06-23.md",
+                        "draft":  "D:\\AImonkey\\listverse-ai-real-value-submission-draft-2026-06-23.txt",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "evidence_gate":  "Listverse reviews submission -\u003e accepts and publishes list -\u003e PayPal payment is issued -\u003e payment is received and usable.",
+                        "boundary":  "No login, password, OTP, cookie, localStorage, private token, KYC/tax file, bank/card data, wallet, purchase, captcha bypass, screenshot, or private-data handling. Public author name/email/PayPal email only."
+                    },
                     {
                         "timestamp":  "2026-06-23T10:36:00Z",
                         "directory":  "WebSub hub RSS publish notification",
@@ -2263,5 +2281,5 @@
                                     "value_count_rule":  "Only count paid_or_usable_value after payment or other usable value is received and verified."
                                 },
     "current_true_income_value":  "0 verified",
-    "last_updated":  "2026-06-23T18:36:00+08:00"
+    "last_updated":  "2026-06-23T18:52:00+08:00"
 }
