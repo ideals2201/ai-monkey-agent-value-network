@@ -6,6 +6,8 @@
     "fixed_usd10_purchase_instructions":  "http://43.129.246.70/fixed-usd10-lead-instructions.html",
     "direct_fixed_usd10_purchase":  "http://43.129.246.70/buy-usd10-now.html",
     "direct_fixed_usd10_purchase_json":  "http://43.129.246.70/buy-usd10-now.json",
+    "buyer_intake":  "http://43.129.246.70/buyer-intake.html",
+    "buyer_intake_json":  "http://43.129.246.70/buyer-intake.json",
     "public_email":  "binhaitjzhda@gmail.com",
     "payment_after_scope_agreed":  "https://paypal.me/binhai2001/10",
     "paypal_after_scope_accepted":  "https://paypal.me/binhai2001/10",
@@ -68,6 +70,8 @@
                            "method":  "email",
                            "to":  "binhaitjzhda@gmail.com",
                            "subject_prefix":  "AI Monkey Lead:",
+                           "buyer_intake_page":  "http://43.129.246.70/buyer-intake.html",
+                           "buyer_intake_json":  "http://43.129.246.70/buyer-intake.json",
                            "include":  [
                                            "official_source_url",
                                            "route_name",
@@ -115,7 +119,7 @@
                             "status":  "public_marketplace_gig_profile_not_income",
                             "purpose":  "seller/agent marketplace reviewers and buyers can inspect the fixed USD 10 service package without account access"
                         },
-    "updated_at":  "2026-06-22T17:55:00+08:00",
+    "updated_at":  "2026-06-23T09:24:00Z",
     "canonical_fixed_usd10_offer":  {
                                         "name":  "Fixed USD 10 public-source no-go audit",
                                         "amount":  10,
@@ -139,5 +143,8 @@
                                "workflow_screenshots":  "http://43.129.246.70/workflow-screenshots.html",
                                "workflow_screenshots_json":  "http://43.129.246.70/workflow-screenshots.json",
                                "https_status":  "server_cert_valid_external_443_cloud_firewall_blocked"
-                           }
+                           },
+    "field_manual_free_sample_pdf":  "http://43.129.246.70/ai-agent-income-field-manual-sample.pdf",
+    "field_manual_free_sample_html":  "http://43.129.246.70/field-manual-free-sample.html",
+    "field_manual_buy_page":  "http://43.129.246.70/buy-field-manual-now.html"
 }
