@@ -1,6 +1,6 @@
 {
     "schema":  "ai-monkey-submission-status-index-v0",
-    "updated_at":  "2026-06-23T15:10:00+08:00",
+    "updated_at":  "2026-06-23T15:16:44+08:00",
     "network_name":  "AI Monkey Agent Value Network",
     "public_base_url":  "http://43.129.246.70/",
     "public_contact_email":  "binhaitjzhda@gmail.com",
@@ -2088,6 +2088,22 @@
                         "income_now":  "No",
                         "paid_or_usable_value":  "No",
                         "value_gate":  "Count only after verified listing, lead, buyer payment, payout, or other usable value."
+                    },
+                    {
+                        "id":  "techtools-public-intake-listing-2026-06-23",
+                        "channel":  "TechTools Launchpad",
+                        "type":  "public_directory_live_listing",
+                        "status":  "published_public_listing_not_income",
+                        "submitted_at":  "2026-06-23T15:16:44+08:00",
+                        "source":  "https://techtools.cz/tools/launchpad/",
+                        "api_endpoint":  "https://techtools.cz/launchpad-api/tools",
+                        "submitted_url":  "http://43.129.246.70/ai-human-intake.html",
+                        "public_listing":  "https://techtools.cz/tools/launchpad/?tool=290",
+                        "evidence":  "D:\\AImonkey\\TECHTOOLS_PUBLIC_INTAKE_LISTING_2026-06-23.md",
+                        "response":  "HTTP 201; Tool submitted successfully! It is now live.; listing id 290.",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "value_gate":  "Count only after verified lead, buyer payment, payout, or other usable value."
                     }
                 ],
     "evidence_gate":  {
@@ -2119,5 +2135,5 @@
                                     "value_count_rule":  "Only count paid_or_usable_value after payment or other usable value is received and verified."
                                 },
     "current_true_income_value":  "0 verified",
-    "last_updated":  "2026-06-23T15:10:00+08:00"
+    "last_updated":  "2026-06-23T15:16:44+08:00"
 }
