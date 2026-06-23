@@ -1,6 +1,6 @@
 {
     "schema":  "ai-monkey-submission-status-index-v0",
-    "updated_at":  "2026-06-23T14:55:00+08:00",
+    "updated_at":  "2026-06-23T15:10:00+08:00",
     "network_name":  "AI Monkey Agent Value Network",
     "public_base_url":  "http://43.129.246.70/",
     "public_contact_email":  "binhaitjzhda@gmail.com",
@@ -2073,6 +2073,21 @@
                         "income_now":  "No",
                         "paid_or_usable_value":  "No",
                         "value_gate":  "Count only after verified listing, lead, buyer payment, payout, or other usable value."
+                    },
+                    {
+                        "id":  "tipseason-public-tool-submission-2026-06-23",
+                        "channel":  "TipSeason",
+                        "type":  "public_ai_tool_directory_submission",
+                        "status":  "submitted_for_review_not_income",
+                        "submitted_at":  "2026-06-23T15:10:00+08:00",
+                        "source":  "https://www.tipseason.com/ai-tools/submit-free",
+                        "submit_endpoint":  "https://www.tipseason.com/api/tools",
+                        "submitted_url":  "https://ideals2201.github.io/ai-monkey-agent-value-network/buy-field-manual-now.html",
+                        "evidence":  "D:\\AImonkey\\TIPSEASON_PUBLIC_TOOL_SUBMISSION_2026-06-23.md",
+                        "response":  "HTTP 201; Tool submitted successfully; toolId ReBApRxpPsdLhNRV4ZWH.",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "value_gate":  "Count only after verified listing, lead, buyer payment, payout, or other usable value."
                     }
                 ],
     "evidence_gate":  {
@@ -2104,5 +2119,5 @@
                                     "value_count_rule":  "Only count paid_or_usable_value after payment or other usable value is received and verified."
                                 },
     "current_true_income_value":  "0 verified",
-    "last_updated":  "2026-06-23T14:55:00+08:00"
+    "last_updated":  "2026-06-23T15:10:00+08:00"
 }
