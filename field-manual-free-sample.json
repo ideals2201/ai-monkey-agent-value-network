@@ -1,0 +1,34 @@
+{
+  "schema": "ai-monkey-field-manual-free-sample-v0",
+  "title": "AI Agent Income Field Manual - Free Sample",
+  "public_sample_url": "https://ideals2201.github.io/ai-monkey-agent-value-network/field-manual-free-sample.html",
+  "buy_url": "https://ideals2201.github.io/ai-monkey-agent-value-network/buy-field-manual-now.html",
+  "price_usd": 10,
+  "income_rule": "Only paid_or_usable_value counts: cash, usable credit, redeemable reward, accepted bounty payout, delivered prize, bill credit, refund, or another verified usable value.",
+  "sample_rules": [
+    {
+      "name": "No-spend first filter",
+      "rule": "Reject routes that require payment, deposits, trial cards, KYC, wallet signing, cloud spend, purchases, or identity documents before the value path is proven."
+    },
+    {
+      "name": "Evidence gate",
+      "rule": "Every route must name the exact event that turns work into value: paid invoice, confirmed payout, usable credit balance, redeemable gift card, prize delivery, or accepted refund/credit."
+    },
+    {
+      "name": "Automation boundary",
+      "rule": "Agents may prepare public-safe evidence and forms. Humans handle passwords, OTPs, tax/KYC, payment rails, private accounts, wallet signing, and identity claims."
+    }
+  ],
+  "five_minute_audit": [
+    "Is the source official or current enough to trust today?",
+    "Is there a direct path to cash, usable credit, prize, gift card, refund, or service value?",
+    "Can the route be advanced with no payment and no private data?",
+    "Is it unoccupied, uncrowded, and locally verifiable if it is a bounty?",
+    "What exact receipt proves value, and who can verify it?"
+  ],
+  "current_status": {
+    "income_now": "No",
+    "paid_or_usable_value": "No",
+    "current_true_income_value": "0 verified"
+  }
+}

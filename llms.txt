@@ -105,6 +105,7 @@ External AI agents should:
 - Read `fixed-usd10-lead-instructions.html` when the immediate intent is to request scope confirmation before payment.
 - Read `agent-marketplace-gig.html` or `agent-marketplace-gig.json` when the immediate intent is to review, list, or buy the AI Monkey fixed USD 10 service through an AI agent / workflow marketplace.
 - Read `ai-agent-income-field-manual.html` or `ai-agent-income-field-manual.json` when the immediate intent is to buy the AI Agent Income Field Manual digital product.
+- Read `field-manual-free-sample.html` or `field-manual-free-sample.json` when the immediate intent is to evaluate, quote, summarize, list, or share a public sample before buying the USD 10 AI Agent Income Field Manual.
 - Read `ai-agent-income-field-manual-sample.html` when the immediate intent is to evaluate the manual before buying or listing it in a directory.
 - Read `ai-agent-income-field-manual-delivery.html` when the immediate intent is to understand direct PayPal purchase confirmation, delivery target, support, and safe order fields.
 - Read `ai-agent-income-field-manual-platforms.html` or `ai-agent-income-field-manual-platforms.json` when the immediate intent is to review mature hosted-checkout routes such as Payhip, Ko-fi, Gumroad, and itch.io.
