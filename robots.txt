@@ -13,6 +13,10 @@ Sitemap: http://43.129.246.70/sitemap.xml
 # /buyer-intake.json
 # /ai-agent-collaboration.html
 # /ai-agent-collaboration.json
+# /ai-crawler-action-index.json
+# /ai-inbound-lead-endpoint.json
+# /ai-message-protocol.json
+# /ai-mutual-aid-relay.json
 # /agent-marketplace-gig.json
 # /referral-partners.html
 # /referral-partners.json

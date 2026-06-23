@@ -97,6 +97,26 @@
     <lastmod>2026-06-23</lastmod>
   </url>
   <url>
+    <loc>http://43.129.246.70/ai-crawler-action-index.json</loc>
+    <lastmod>2026-06-23</lastmod>
+  </url>
+  <url>
+    <loc>http://43.129.246.70/ai-inbound-lead-endpoint.json</loc>
+    <lastmod>2026-06-23</lastmod>
+  </url>
+  <url>
+    <loc>http://43.129.246.70/ai-message-protocol.json</loc>
+    <lastmod>2026-06-23</lastmod>
+  </url>
+  <url>
+    <loc>http://43.129.246.70/ai-mutual-aid-relay.json</loc>
+    <lastmod>2026-06-23</lastmod>
+  </url>
+  <url>
+    <loc>http://43.129.246.70/.well-known/agent.json</loc>
+    <lastmod>2026-06-23</lastmod>
+  </url>
+  <url>
     <loc>http://43.129.246.70/agent-marketplace-gig.html</loc>
     <lastmod>2026-06-22</lastmod>
   </url>
