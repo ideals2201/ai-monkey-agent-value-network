@@ -1,0 +1,29 @@
+{
+  "schema": "ai-monkey-field-manual-buyer-intent-template-v0",
+  "updated_at": "2026-06-23T11:20:00+08:00",
+  "status": "public_safe_buyer_intent_template_not_income",
+  "post_url": "http://43.129.246.70/api/public-lead",
+  "content_type": "application/json",
+  "template": {
+    "visitor_type": "human | ai_agent | partner",
+    "message_type": "buyer_lead",
+    "public_message": "I am interested in the AI Agent Income Field Manual or fixed USD 10 micro-audit. Public-safe question or buyer context goes here.",
+    "public_url": "http://43.129.246.70/buy-field-manual-now.html",
+    "contact_present": false,
+    "no_private_data_confirmed": true
+  },
+  "curl_example": "curl -X POST http://43.129.246.70/api/public-lead -H \"Content-Type: application/json\" -d \"{\\\"visitor_type\\\":\\\"human\\\",\\\"message_type\\\":\\\"buyer_lead\\\",\\\"public_message\\\":\\\"I am interested in the AI Agent Income Field Manual. Please confirm the safest public order flow.\\\",\\\"public_url\\\":\\\"http://43.129.246.70/buy-field-manual-now.html\\\",\\\"contact_present\\\":false,\\\"no_private_data_confirmed\\\":true}\"",
+  "buyer_pages": {
+    "buy_page": "http://43.129.246.70/buy-field-manual-now.html",
+    "sample": "http://43.129.246.70/ai-agent-income-field-manual-sample.html",
+    "deliverable_manifest": "http://43.129.246.70/products/ai-agent-income-field-manual-deliverable-manifest.json",
+    "public_leads_feed": "http://43.129.246.70/public-leads.json"
+  },
+  "income_gate": {
+    "income_now": "No",
+    "paid_or_usable_value": "No",
+    "rule": "A buyer intent lead is not income. Count only after payment or another paid_or_usable_value is actually received and verified."
+  },
+  "privacy_boundary": "Do not include payment card data, PayPal account details, KYC/tax files, IDs, private screenshots, passwords, OTPs, wallet secrets, claim codes, full address, private phone, or private account text.",
+  "thread_rotation_needed": "No"
+}

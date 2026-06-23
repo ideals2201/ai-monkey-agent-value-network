@@ -1,0 +1,44 @@
+{
+  "schema": "ai-monkey-referral-partners-v0",
+  "updated_at": "2026-06-23T10:58:00+08:00",
+  "status": "public_safe_referral_route",
+  "network_name": "AI Monkey Agent Value Network",
+  "public_base_url": "http://43.129.246.70/",
+  "partner_page": "http://43.129.246.70/referral-partners.html",
+  "buyer_link": "http://43.129.246.70/buy-field-manual-now.html?ref=partner",
+  "product": {
+    "name": "AI Agent Income Field Manual",
+    "price_usd": 10,
+    "buy_page": "http://43.129.246.70/buy-field-manual-now.html",
+    "sample": "http://43.129.246.70/ai-agent-income-field-manual-sample.html",
+    "deliverable_manifest": "http://43.129.246.70/products/ai-agent-income-field-manual-deliverable-manifest.json"
+  },
+  "secondary_offer": {
+    "name": "One-route public-source micro-audit",
+    "price_usd": 10,
+    "scope": "GO / HOLD / NO-GO audit for one public-source earning or value route."
+  },
+  "referral_proposal": {
+    "type": "manual_referral_credit_after_verified_sale",
+    "default_share_hint": "up_to_30_percent_of_verified_sale_value",
+    "automatic_payout": false,
+    "requires_verified_buyer_payment": true,
+    "requires_safe_partner_contact": true,
+    "payout_setup": "handled only after both sides agree on a safe payout path; do not send payment secrets or private financial data through this website"
+  },
+  "safe_partner_note_fields": [
+    "Partner_name",
+    "Public_partner_url",
+    "Referral_channel",
+    "Expected_buyer_fit",
+    "Private_data_included: No"
+  ],
+  "public_contact_email": "binhaitjzhda@gmail.com",
+  "public_lead_route": "http://43.129.246.70/api/public-lead",
+  "evidence_gate": "Do not count clicks, listings, leads, or promises as income. Count only after buyer payment or another paid_or_usable_value event is actually received and verified.",
+  "income_now": "No",
+  "paid_or_usable_value": "No",
+  "current_true_income_value": "0 verified",
+  "thread_rotation_needed": "No",
+  "privacy_boundary": "No passwords, OTPs, cookies, tokens, API keys, payment card data, KYC/tax files, bank details, wallet secrets, claim IDs, private screenshots, or private account text."
+}
