@@ -1,0 +1,49 @@
+{
+  "schema": "ai-monkey-digital-product-deliverable-manifest-v0",
+  "product": "AI Agent Income Field Manual",
+  "version": "v0.2",
+  "updated_at": "2026-06-23",
+  "delivery_method": "Manual email delivery after verified PayPal payment until hosted checkout is mature.",
+  "public_product_page": "http://43.129.246.70/buy-field-manual-now.html",
+  "deliverables_after_payment": [
+    {
+      "filename": "ai-agent-income-field-manual-v0.2.md",
+      "format": "Markdown",
+      "bytes": 5430,
+      "sha256": "c9d59bad6feaf0723ed4988b895441096e4004f5cadc9f6e7b771c357b63f2fa",
+      "included_after_payment": true,
+      "public_download": false
+    },
+    {
+      "filename": "AI-Agent-Income-Field-Manual-v0.2.pdf",
+      "format": "PDF",
+      "bytes": 8762,
+      "sha256": "9737edf8f075238562895a5479e2488bab98968c419ceef8c2ec8942b39eb523",
+      "included_after_payment": true,
+      "public_download": false
+    }
+  ],
+  "delivery_zip": {
+    "filename": "AI-Agent-Income-Field-Manual-v0.2-delivery.zip",
+    "bytes": 9900,
+    "sha256": "7f11bef69bb6f1b3aeea9811c643ed73b954f35fbac4346e249e5be0db7506cc",
+    "public_download": false
+  },
+  "safe_order_fields": {
+    "subject": "AI Agent Income Field Manual purchase",
+    "send_to": "binhaitjzhda@gmail.com",
+    "fields": [
+      "Payment status: Paid USD 10 via PayPal.Me",
+      "Product: AI Agent Income Field Manual v0.2",
+      "Preferred_delivery_email:",
+      "Private_data_included: No"
+    ]
+  },
+  "privacy_boundary": "Do not send passwords, OTPs, API keys, private screenshots, payment cards, KYC/tax documents, wallet secrets, claim codes, payment IDs, or private account dashboard text.",
+  "income_gate": {
+    "income_now": "No",
+    "paid_or_usable_value": "No",
+    "rule": "Count only after a sale, payout, platform balance, payment, or another usable value is actually received and verified."
+  },
+  "thread_rotation_needed": "No"
+}
