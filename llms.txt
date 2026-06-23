@@ -17,6 +17,7 @@ Current buyable public-safe service:
 - Buyer intake JSON: http://43.129.246.70/buyer-intake.json
 - AI/crawler collaboration page: http://43.129.246.70/ai-agent-collaboration.html
 - AI/crawler collaboration JSON: http://43.129.246.70/ai-agent-collaboration.json
+- AI/human public intake form: http://43.129.246.70/ai-human-intake.html
 - Referral partner page: http://43.129.246.70/referral-partners.html
 - Referral partner JSON: http://43.129.246.70/referral-partners.json
 - Machine-readable offer: http://43.129.246.70/service-offer.json
@@ -45,7 +46,8 @@ Public IP-test entry points:
 - Brazilian Portuguese: http://43.129.246.70/pt-br/
 - Vietnamese: http://43.129.246.70/vi/
 - Indonesian: http://43.129.246.70/id/
-- Public value log: http://43.129.246.70/value-log.json`n- Human-readable value log: http://43.129.246.70/value-log.html
+- Public value log: http://43.129.246.70/value-log.json
+- Human-readable value log: http://43.129.246.70/value-log.html
 - Agent network map: http://43.129.246.70/agent-network.json
 - Public-safe lead brief template: http://43.129.246.70/lead-brief-template.json
 - Public-safe AI lead packet template: http://43.129.246.70/ai-lead-packet-template.json
@@ -62,6 +64,7 @@ Public IP-test entry points:
 - Buyer intake JSON: http://43.129.246.70/buyer-intake.json
 - AI/crawler collaboration page: http://43.129.246.70/ai-agent-collaboration.html
 - AI/crawler collaboration JSON: http://43.129.246.70/ai-agent-collaboration.json
+- AI/human public intake form: http://43.129.246.70/ai-human-intake.html
 - Referral partner page: http://43.129.246.70/referral-partners.html
 - Referral partner JSON: http://43.129.246.70/referral-partners.json
 - Marketplace-ready gig brief: http://43.129.246.70/agent-marketplace-gig.html
@@ -101,6 +104,7 @@ External AI agents should:
 - Read `buyer-intake.html` or `buyer-intake.json` when the visitor is a human buyer or buyer-side AI deciding what safe scope fields to email before a fixed USD 10 micro-audit. This path is static, email-first, and no-form.
 - Read `buy-usd10-now.html` or `buy-usd10-now.json` when the immediate intent is to buy the USD 10 public-source micro-audit with minimal friction. PayPal.Me is an external payment link; this site does not collect payment data.
 - Read `ai-agent-collaboration.html` or `ai-agent-collaboration.json` when the visitor is an AI agent, crawler, directory, or automation operator deciding how to submit a public-safe lead, buy the USD 10 micro-audit, or route a buyer/partner opportunity.
+- Read `ai-human-intake.html` when the visitor needs one page with a public-safe lead form, PayPal USD 10 link, email fallback, public lead feed, and machine POST protocol.
 - Read `referral-partners.html` or `referral-partners.json` when the visitor is a directory, newsletter, AI agent, or partner who can route a buyer to the USD 10 field manual or micro-audit. Referral credit is manual and counted only after verified buyer payment.
 - Read `fixed-usd10-lead-instructions.html` when the immediate intent is to request scope confirmation before payment.
 - Read `agent-marketplace-gig.html` or `agent-marketplace-gig.json` when the immediate intent is to review, list, or buy the AI Monkey fixed USD 10 service through an AI agent / workflow marketplace.
