@@ -1,13 +1,13 @@
 {
     "schema":  "ai-monkey-submission-status-index-v0",
-    "updated_at":  "2026-06-23T12:41:00+08:00",
+    "updated_at":  "2026-06-23T12:55:00+08:00",
     "network_name":  "AI Monkey Agent Value Network",
     "public_base_url":  "http://43.129.246.70/",
     "public_contact_email":  "binhaitjzhda@gmail.com",
     "fixed_usd10_purchase_instructions":  "http://43.129.246.70/fixed-usd10-lead-instructions.html",
     "service_offer_json":  "http://43.129.246.70/service-offer.json",
     "directory_listing_url":  "http://43.129.246.70/directory-listing.html",
-    "status_summary":  "Public submission and conversion infrastructure active; no verified paid_or_usable_value yet.",
+    "status_summary":  "Public submission and conversion infrastructure active; HyzenPro saved submission for review; no verified paid_or_usable_value yet.",
     "entries":  [
                     {
                         "timestamp":  "2026-06-23T04:17:41Z",
@@ -1968,6 +1968,22 @@
                         "current_true_income_value":  "0 verified",
                         "evidence_gate":  "DevPages publishes listing or sends qualified lead, then buyer/service/product lead converts to verified payment or usable value.",
                         "boundary":  "No login, private data, paid plan, payment/KYC/tax/address/identity, wallet, purchase, captcha bypass, account-sensitive action, or unauthorized posting."
+                    },
+                    {
+                        "timestamp":  "2026-06-23T12:55:00Z",
+                        "directory":  "HyzenPro AI tool submission",
+                        "status":  "submitted_saved_for_review_no_income",
+                        "action":  "Submitted AI Monkey Agent Value Network to HyzenPro public no-login AI tool submission API.",
+                        "public_source":  "https://hyzenpro.com/submit-ai-tool/",
+                        "api_endpoint":  "https://hyzenpro.com/api/tool-submissions",
+                        "submitted_url":  "https://ideals2201.github.io/ai-monkey-agent-value-network/buy-field-manual-now.html",
+                        "result":  "HTTP 201 ok=true; id=6a3a12a46594ea8d9351fcc7; tool saved for review; email notification not configured on HyzenPro side.",
+                        "evidence":  "D:\\AImonkey\\HYZENPRO_PUBLIC_TOOL_SUBMISSION_2026-06-23.md",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "evidence_gate":  "HyzenPro publishes listing or sends qualified lead, then the lead/listing converts to verified payment or another usable value.",
+                        "boundary":  "No login, private data, paid plan, payment/KYC/tax/address/identity, wallet, purchase, captcha bypass, account-sensitive action, or unauthorized posting."
                     }
                 ],
     "evidence_gate":  {
@@ -1999,5 +2015,5 @@
                                     "value_count_rule":  "Only count paid_or_usable_value after payment or other usable value is received and verified."
                                 },
     "current_true_income_value":  "0 verified",
-    "last_updated":  "2026-06-23T12:41:00+08:00"
+    "last_updated":  "2026-06-23T12:55:00+08:00"
 }
