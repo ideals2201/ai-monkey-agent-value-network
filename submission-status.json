@@ -1,13 +1,13 @@
 {
     "schema":  "ai-monkey-submission-status-index-v0",
-    "updated_at":  "2026-06-23T13:29:00+08:00",
+    "updated_at":  "2026-06-23T13:50:00+08:00",
     "network_name":  "AI Monkey Agent Value Network",
     "public_base_url":  "http://43.129.246.70/",
     "public_contact_email":  "binhaitjzhda@gmail.com",
     "fixed_usd10_purchase_instructions":  "http://43.129.246.70/fixed-usd10-lead-instructions.html",
     "service_offer_json":  "http://43.129.246.70/service-offer.json",
     "directory_listing_url":  "http://43.129.246.70/directory-listing.html",
-    "status_summary":  "Public submission and conversion infrastructure active; GPTBot accepted free submission; no verified paid_or_usable_value yet.",
+    "status_summary":  "Public submission and conversion infrastructure active; AI Price Radar saved submission and notification returned OK; no verified paid_or_usable_value yet.",
     "entries":  [
                     {
                         "timestamp":  "2026-06-23T04:17:41Z",
@@ -2016,6 +2016,21 @@
                         "current_true_income_value":  "0 verified",
                         "evidence_gate":  "GPTBot publishes listing or sends qualified lead, then the listing/lead converts to verified payment or another usable value.",
                         "boundary":  "No login, paid priority checkout, private data, payment/KYC/tax/address/identity, wallet, purchase, captcha bypass, account-sensitive action, or unauthorized posting."
+                    },
+                    {
+                        "timestamp":  "2026-06-23T13:50:00Z",
+                        "directory":  "AI Price Radar tool submission",
+                        "status":  "submitted_saved_and_notified_review_pending_no_income",
+                        "action":  "Submitted AI Monkey Agent Value Network to AI Price Radar public submission flow using the site-exposed Firebase and EmailJS client path.",
+                        "public_source":  "https://aipriceradar.com/submit",
+                        "submitted_url":  "https://ideals2201.github.io/ai-monkey-agent-value-network/buy-field-manual-now.html",
+                        "result":  "Firestore document created: cTmtZ93L1lyoNubZ5XZP; EmailJS notification returned OK.",
+                        "evidence":  "D:\\AImonkey\\AIPRICERADAR_PUBLIC_TOOL_SUBMISSION_2026-06-23.md",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "evidence_gate":  "AI Price Radar publishes listing or sends qualified lead, then the listing/lead converts to verified payment or another usable value.",
+                        "boundary":  "No login, private data, paid plan, payment/KYC/tax/address/identity, wallet, purchase, captcha bypass, account-sensitive action, or unauthorized posting. Used only public client-side submission configuration intentionally exposed by the site."
                     }
                 ],
     "evidence_gate":  {
@@ -2047,5 +2062,5 @@
                                     "value_count_rule":  "Only count paid_or_usable_value after payment or other usable value is received and verified."
                                 },
     "current_true_income_value":  "0 verified",
-    "last_updated":  "2026-06-23T13:29:00+08:00"
+    "last_updated":  "2026-06-23T13:50:00+08:00"
 }
