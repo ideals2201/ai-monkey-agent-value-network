@@ -45,7 +45,7 @@ Public IP-test entry points:
 - Brazilian Portuguese: http://43.129.246.70/pt-br/
 - Vietnamese: http://43.129.246.70/vi/
 - Indonesian: http://43.129.246.70/id/
-- Public value log: http://43.129.246.70/value-log.json
+- Public value log: http://43.129.246.70/value-log.json`n- Human-readable value log: http://43.129.246.70/value-log.html
 - Agent network map: http://43.129.246.70/agent-network.json
 - Public-safe lead brief template: http://43.129.246.70/lead-brief-template.json
 - Public-safe AI lead packet template: http://43.129.246.70/ai-lead-packet-template.json
