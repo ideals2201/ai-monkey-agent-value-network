@@ -1,14 +1,30 @@
 {
     "schema":  "ai-monkey-submission-status-index-v0",
-    "updated_at":  "2026-06-23T11:58:48+08:00",
+    "updated_at":  "2026-06-23T12:17:41+08:00",
     "network_name":  "AI Monkey Agent Value Network",
     "public_base_url":  "http://43.129.246.70/",
     "public_contact_email":  "binhaitjzhda@gmail.com",
     "fixed_usd10_purchase_instructions":  "http://43.129.246.70/fixed-usd10-lead-instructions.html",
     "service_offer_json":  "http://43.129.246.70/service-offer.json",
     "directory_listing_url":  "http://43.129.246.70/directory-listing.html",
-    "status_summary":  "SubmitAITools contact form submitted; ToolJunction free listing submitted with badge live; no verified income yet.",
+    "status_summary":  "AI ToolsXplorer free submission completed; SubmitAITools contact form submitted; ToolJunction free listing submitted with badge live; no verified income yet.",
     "entries":  [
+                    {
+                        "timestamp":  "2026-06-23T04:17:41Z",
+                        "directory":  "AI ToolsXplorer free submission",
+                        "status":  "submitted_review_pending_no_income",
+                        "action":  "Submitted AI Agent Income Field Manual to AI ToolsXplorer public no-login form.",
+                        "public_source":  "https://www.aitoolsxplorer.in/submit-tool",
+                        "submitted_url":  "https://ideals2201.github.io/ai-monkey-agent-value-network/buy-field-manual-now.html",
+                        "category":  "Productivity",
+                        "result":  "Thank You for Your Submission; email notification promised when tool is published.",
+                        "evidence":  "D:\\AImonkey\\AITOOLSXPLORER_FREE_SUBMISSION_2026-06-23.md",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "evidence_gate":  "AI ToolsXplorer publishes listing or sends qualified buyer lead, then buyer converts and payment or usable value is verified.",
+                        "boundary":  "No login, paid plan, captcha solving, payment/KYC/tax/address/identity, wallet, purchase, cookie/localStorage, token, or private-data handling."
+                    },
                     {
                         "timestamp":  "2026-06-23T03:58:48Z",
                         "directory":  "SubmitAITools contact form submission",
