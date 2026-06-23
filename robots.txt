@@ -1,15 +1,27 @@
-﻿User-agent: *
+User-agent: *
 Allow: /
 Sitemap: http://43.129.246.70/sitemap.xml
 
 # AI Monkey machine-readable entry points
 # /llms.txt
+# /feed.xml
+# /rss.xml
 # /service-offer.json
+# /buy-field-manual-now.html
+# /field-manual-buyer-intent-template.json
 # /buy-usd10-now.html
 # /buy-usd10-now.json
+# /buyer-intake.html
+# /buyer-intake.json
 # /ai-agent-collaboration.html
 # /ai-agent-collaboration.json
+# /ai-crawler-action-index.json
+# /ai-inbound-lead-endpoint.json
+# /ai-message-protocol.json
+# /ai-mutual-aid-relay.json
 # /agent-marketplace-gig.json
+# /referral-partners.html
+# /referral-partners.json
 # /submission-status.json
 # /public-leads.json
 # /visitor-counter.json
