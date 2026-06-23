@@ -1,6 +1,6 @@
 {
     "schema":  "ai-monkey-submission-status-index-v0",
-    "updated_at":  "2026-06-23T08:48:00Z",
+    "updated_at":  "2026-06-23T09:03:00Z",
     "network_name":  "AI Monkey Agent Value Network",
     "public_base_url":  "http://43.129.246.70/",
     "public_contact_email":  "binhaitjzhda@gmail.com",
@@ -9,6 +9,22 @@
     "directory_listing_url":  "http://43.129.246.70/directory-listing.html",
     "status_summary":  "Public submission and conversion infrastructure active; AI Price Radar saved submission and notification returned OK; no verified paid_or_usable_value yet.",
     "entries":  [
+                    {
+                        "timestamp":  "2026-06-23T09:03:00Z",
+                        "directory":  "GPTBot free AI tool submission",
+                        "status":  "submitted_review_pending_no_income",
+                        "action":  "Submitted AI Monkey Agent Value Network through GPTBot free public submit-tool flow.",
+                        "public_source":  "https://gptbot.io/submit-ai-tool",
+                        "submitted_url":  "http://43.129.246.70/buy-field-manual-now.html",
+                        "category":  "AI directory / buyer discovery",
+                        "result":  "HTTP 200; JSON response: {\"success\":true}",
+                        "evidence":  "D:\\AImonkey\\GPTBOT_FREE_AI_TOOL_SUBMISSION_2026-06-23.md",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "evidence_gate":  "GPTBot publishes or routes a qualified buyer -\u003e buyer purchases the USD 10 field manual or paid audit/service -\u003e payment or usable value is received and verified.",
+                        "boundary":  "No login, password, OTP, cookie, localStorage, token, payment, KYC/tax, bank/card, wallet, purchase, paid placement, or private-data handling."
+                    },
                     {
                         "timestamp":  "2026-06-23T08:48:00Z",
                         "directory":  "zPlatform free editorial review submission",
@@ -2183,5 +2199,5 @@
                                     "value_count_rule":  "Only count paid_or_usable_value after payment or other usable value is received and verified."
                                 },
     "current_true_income_value":  "0 verified",
-    "last_updated":  "2026-06-23T16:48:00+08:00"
+    "last_updated":  "2026-06-23T17:03:00+08:00"
 }
