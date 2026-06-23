@@ -1,0 +1,27 @@
+{
+  "schema": "ai-monkey-outlier-ai-content-reviewer-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "Outlier AI Content Reviewer",
+  "lead_type": "paid_research_or_testing_candidate",
+  "official_source_url": "https://app.outlier.ai/en/expert/opportunities/4640583005",
+  "value_signal": "Current Outlier opportunity pages show U.S.-remote content review work paying up to $16 USD/hour with selective screening.",
+  "amount_or_value_band": "under_50",
+  "current_status": "open",
+  "eligibility_or_region_notes": "The live opportunity is U.S.-remote and depends on truthful screening fit for content review or related review work.",
+  "deadline_or_currentness": "Current public opportunity page is live; the work is screening-gated and can convert near-term if the profile matches.",
+  "evidence_gate": "Approved account plus completed task and verified payout or usable value.",
+  "ai_can_do_next": "Draft a truthful content-review readiness checklist and a short fit note for the user to review.",
+  "human_must_do_next": "Human account owner must create the account, complete screening, and accept a task.",
+  "automation_boundary": "No account creation, login, screening submission, or private profile/payment data handling.",
+  "why_this_is_not_income_yet": "Open access is not income until an assignment is completed and payout is verified.",
+  "public_proof_url": "https://app.outlier.ai/expert/jobs",
+  "risk_flags": "Selectivity and role fit still matter; do not route without a truthful content-review profile.",
+  "known_blockers": "Requires truthful screening fit and approval on the platform.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after approved account or visible usable payout delivery."
+  },
+  "thread_rotation_needed": "No"
+}

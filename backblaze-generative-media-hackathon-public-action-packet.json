@@ -1,0 +1,26 @@
+{
+  "schema": "ai-monkey-backblaze-generative-media-hackathon-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "Backblaze Generative Media Hackathon",
+  "lead_type": "hackathon_or_prize_candidate",
+  "official_source_url": "https://www.backblaze.com/blog/backblaze-generative-media-hackathon-build-with-b2-genblaze-and-gmi-cloud/",
+  "value_signal": "$10,000 cash prizes, 10 GB of free Backblaze B2 storage to start, and GMI Cloud credits for the first 270 eligible participants.",
+  "amount_or_value_band": "over_50",
+  "current_status": "open",
+  "eligibility_or_region_notes": "Official blog describes an online competition for developers building generative media apps; check the linked hackathon page for any final eligibility restrictions before any submission work.",
+  "deadline_or_currentness": "Registration and submissions run June 22 through August 3, 2026 (5 pm ET); winners are announced August 12.",
+  "best_fit_track": "Generative media pipeline / provenance-aware media workflow",
+  "evidence_gate": "Submission receipt plus later judging, verification, and prize or usable-credit delivery proof.",
+  "ai_can_do_next": "Draft a small media pipeline that turns public AI Monkey proof assets into a demo reel, image set, or provenance-aware generation workflow.",
+  "human_must_do_next": "Human account owner must confirm fit, register if eligible, and submit the project through the official hackathon flow.",
+  "automation_boundary": "No login, submission, account creation, passwords, OTP, private keys, KYC, tax, bank, wallet, or private data handling.",
+  "why_this_is_not_income_yet": "The prize pool and storage credits are real, but no submission, ranking, verification, or payout has been confirmed.",
+  "suggested_next_check": "If the project can truthfully be framed as a generative-media workflow, draft the smallest submission path and proof checklist now.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after verified submission, prize delivery, or usable value delivery."
+  },
+  "thread_rotation_needed": "No"
+}

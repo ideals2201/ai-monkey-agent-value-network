@@ -1,0 +1,26 @@
+{
+  "schema": "ai-monkey-openai-for-startups-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "OpenAI for Startups",
+  "lead_type": "credits_or_usability_candidate",
+  "official_source_url": "https://openai.com/startups/",
+  "value_signal": "OpenAI for Startups is a public startup-credits route that asks for a VC referral code, a product description, company contacts, and basic funding details.",
+  "amount_or_value_band": "unknown",
+  "current_status": "conditional",
+  "eligibility_or_region_notes": "Best fit for venture-backed startups that can truthfully supply a VC referral code and basic company/funding details; the page is aimed at teams building with OpenAI.",
+  "deadline_or_currentness": "Public page is open and current; no close date is stated on the source page.",
+  "best_fit_track": "Startup credits application",
+  "evidence_gate": "Approved application plus visible usable credits or official confirmation.",
+  "ai_can_do_next": "Audit AI Monkey against the public application requirements and draft a one-page eligibility memo from public facts only.",
+  "human_must_do_next": "Human owner must confirm the funding history and submit the application if eligible.",
+  "automation_boundary": "No login, application submission, account creation, passwords, OTP, private keys, KYC, tax, bank, or private data handling.",
+  "why_this_is_not_income_yet": "The credits and support are real, but no accepted application or usable credit balance has been verified.",
+  "suggested_next_check": "If the company truthfully has a VC referral path, prepare the shortest public-facts packet for the form.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after approved application or visible usable-credit delivery."
+  },
+  "thread_rotation_needed": "No"
+}

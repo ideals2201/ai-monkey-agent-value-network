@@ -1,0 +1,21 @@
+{
+  "schema": "ai-monkey-usertesting-paid-website-and-app-testing-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "UserTesting paid website and app testing",
+  "lead_type": "paid_research_or_testing_candidate",
+  "official_source_url": "https://www.usertesting.com/get-paid-to-test",
+  "value_signal": "UserTesting says participants can get paid to test apps, prototypes, websites, and real-world experiences from home.",
+  "amount_or_value_band": "under_50",
+  "current_status": "open",
+  "eligibility_or_region_notes": "Public pages allow an email-based application and a practice test; approved participant status and screening fit determine task access.",
+  "deadline_or_currentness": "Ongoing; current pages say new recorded tests are released all the time.",
+  "best_fit_track": "Paid tester",
+  "evidence_gate": "Approved participant account plus completed test and verified payout.",
+  "ai_can_do_next": "Prepare a truthful participant profile checklist and practice-test readiness note.",
+  "human_must_do_next": "Human account owner must submit the email application, take the practice test, and personally complete tests.",
+  "automation_boundary": "No account creation, login, screener submission, or private profile/payment data handling by Agent1.",
+  "why_this_is_not_income_yet": "Open access is not income until a paid test is completed and payout is verified.",
+  "public_proof_url": "https://www.usertesting.com/get-paid-to-test",
+  "risk_flags": "Task access is selective and requires the user to personally perform the studies.",
+  "known_blockers": "Requires a truthful participant profile, a microphone-capable device, and approved participant status."
+}

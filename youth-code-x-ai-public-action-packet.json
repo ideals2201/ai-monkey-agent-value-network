@@ -1,0 +1,26 @@
+{
+  "schema": "ai-monkey-youth-code-x-ai-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "Youth Code x AI",
+  "lead_type": "hackathon_or_prize_candidate",
+  "official_source_url": "https://youth-code-x-ai-29376.devpost.com/rules",
+  "value_signal": "The hackathon page states that cash prizes will be awarded to top-performing individuals or teams; specific amounts are announced at the start.",
+  "amount_or_value_band": "unknown",
+  "current_status": "open",
+  "eligibility_or_region_notes": "Participants must be at least 13 years old and can participate individually or with a team of up to 4; the public page shows a current live deadline.",
+  "deadline_or_currentness": "Deadline 2026-06-27 11:30pm EDT.",
+  "best_fit_track": "General youth AI app or web-based build",
+  "evidence_gate": "Submission receipt plus later award/payment or usable prize proof.",
+  "ai_can_do_next": "Draft a short, public-safe concept brief and submission checklist using only public AI Monkey facts.",
+  "human_must_do_next": "Human account owner must register on Devpost and submit if eligible.",
+  "automation_boundary": "No login, account creation, Devpost submission, passwords, OTP, private keys, KYC, tax, bank, wallet, or private data handling.",
+  "why_this_is_not_income_yet": "The route is open, but no submission, acceptance, winner notice, or payout has been verified.",
+  "suggested_next_check": "If eligible, turn the existing AI Monkey public value network into the shortest possible demo and submission packet.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after verified submission, prize delivery, or usable award delivery."
+  },
+  "thread_rotation_needed": "No"
+}

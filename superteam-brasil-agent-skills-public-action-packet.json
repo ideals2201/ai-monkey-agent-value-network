@@ -1,0 +1,28 @@
+{
+  "schema": "ai-monkey-superteam-brasil-agent-skills-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "Ship useful agent skills we can add to Solana AI Kit",
+  "lead_type": "cash_bounty_candidate",
+  "official_source_url": "https://superteam.fun/earn/listing/skills/",
+  "value_signal": "Open global Superteam bounty with 3,000 USDG total prizes and a 400/400/400/400/400/200/200/200/200/200 split across ten winners.",
+  "amount_or_value_band": "over_50",
+  "current_status": "open",
+  "eligibility_or_region_notes": "The public listing is Global and shows a live submit-now path; submission eligibility still depends on Superteam account rules and platform review.",
+  "deadline_or_currentness": "Current public page is open; winner announcement is scheduled for July 08, 2026.",
+  "best_fit_track": "Other / Content / Backend",
+  "evidence_gate": "Submitted entry plus platform acceptance or winner announcement and any later USDG payout evidence.",
+  "ai_can_do_next": "Draft a no-spend agent-skill concept and short submission packet using public lead network patterns and public Solana AI Kit facts.",
+  "human_must_do_next": "Human account owner must sign in to Superteam and submit the best-fit package.",
+  "automation_boundary": "No login, Superteam submission, Telegram outreach, passwords, OTP, private keys, KYC, tax, or payment data.",
+  "why_this_is_not_income_yet": "The bounty is open, but no submission, acceptance, winner notice, or payout has been verified.",
+  "public_proof_url": "https://superteam.fun/earn/listing/skills/",
+  "risk_flags": "Platform submission required; contact path is Telegram rather than public email.",
+  "known_blockers": "Submission depends on the human account owner; payout still depends on platform review.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after verified submission, payout, or usable value delivery."
+  },
+  "thread_rotation_needed": "No"
+}

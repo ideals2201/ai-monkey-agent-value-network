@@ -1,0 +1,25 @@
+{
+  "schema": "ai-monkey-crowdgen-video-collector-us-based-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "CrowdGen by Appen - Video Collector - US Based",
+  "lead_type": "paid_research_or_testing_candidate",
+  "official_source_url": "https://jobs.lever.co/appen/ef3be214-afce-483b-ab65-d0e6cc3f5f1d",
+  "value_signal": "Official page says the project pays $10/hour and can earn up to $200 per week for U.S.-based household video recording tasks.",
+  "amount_or_value_band": "under_50",
+  "current_status": "open",
+  "eligibility_or_region_notes": "Must currently reside in the United States, be at least 18, have a 1080p-capable recording device, a head-mount accessory, and a residential environment suitable for household activity recording.",
+  "deadline_or_currentness": "Current public page is live; intake is first-come first-served and quotas may fill by demographic group.",
+  "evidence_gate": "Approved account plus completed recording session and verified payout or other usable value.",
+  "ai_can_do_next": "Draft a truthful participant readiness checklist and device/setup note for the user to review.",
+  "human_must_do_next": "Human account owner must apply and, if selected, complete the recordings and any onboarding steps.",
+  "automation_boundary": "No login, application submission, account creation, passwords, OTP, private keys, KYC, tax, bank, or private data handling.",
+  "why_this_is_not_income_yet": "The pay is real, but no selection, task assignment, or payout has been verified.",
+  "suggested_next_check": "If the U.S. residential video setup is truthful and available, prepare the shortest honest application checklist and device readiness note.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after approved account or visible usable payout delivery."
+  },
+  "thread_rotation_needed": "No"
+}

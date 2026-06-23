@@ -97,45 +97,6 @@
 })();
 
 (function () {
-  const form = document.querySelector("[data-public-lead-form]");
-  if (!form || typeof fetch !== "function") {
-    return;
-  }
-
-  const status = form.querySelector("[data-public-lead-status]");
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const data = new FormData(form);
-    const payload = {
-      visitor_type: data.get("visitor_type") || "other",
-      message_type: data.get("message_type") || "other",
-      public_message: data.get("public_message") || "",
-      public_url: data.get("public_url") || "",
-      contact_email: data.get("contact_email") || "",
-      no_private_data_confirmed: data.get("no_private_data_confirmed") === "on",
-    };
-
-    status.textContent = "Submitting public-safe lead...";
-    fetch("/api/public-lead", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify(payload),
-    })
-      .then((response) => response.json().then((body) => ({ response, body })))
-      .then(({ response, body }) => {
-        if (!response.ok || !body.ok) {
-          throw new Error(body.error || `HTTP ${response.status}`);
-        }
-        status.textContent = `Lead received: ${body.id}. Status: received pending review, no income counted.`;
-        form.reset();
-      })
-      .catch((error) => {
-        status.textContent = `Lead not accepted: ${error.message}. Remove private data terms or email binhaitjzhda@gmail.com with a public-safe brief.`;
-      });
-  });
-})();
-
-(function () {
   const counter = document.querySelector("[data-visit-counter]");
   if (!counter || typeof fetch !== "function") {
     return;

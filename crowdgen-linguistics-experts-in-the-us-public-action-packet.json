@@ -1,0 +1,25 @@
+{
+  "schema": "ai-monkey-crowdgen-linguistics-experts-in-the-us-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "CrowdGen by Appen - Linguistics Experts in the US",
+  "lead_type": "paid_research_or_testing_candidate",
+  "official_source_url": "https://jobs.lever.co/appen/2ffcfdbc-a973-4176-9fdc-74c0e820315f",
+  "value_signal": "Official page says the project pays $25/hour for U.S.-based speech annotation and transcription work.",
+  "amount_or_value_band": "under_50",
+  "current_status": "open",
+  "eligibility_or_region_notes": "Must reside in the United States and truthfully have native or near-native US English plus transcription or linguistics background.",
+  "deadline_or_currentness": "Current public page is live; onboarding is rolling and earlier applications are encouraged.",
+  "evidence_gate": "Approved account plus completed transcription task and verified payout or other usable value.",
+  "ai_can_do_next": "Draft a truthful fit note only if the user really has linguistics, phonetics, or transcription experience.",
+  "human_must_do_next": "Human account owner must apply and, if selected, complete the project onboarding and tasks.",
+  "automation_boundary": "No login, application submission, account creation, passwords, OTP, private keys, KYC, tax, bank, or private data handling.",
+  "why_this_is_not_income_yet": "The pay is real, but no selection, task assignment, or payout has been verified.",
+  "suggested_next_check": "Only route this if the user truly has the specialist background and wants the higher-rate transcript lane.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after approved account or visible usable payout delivery."
+  },
+  "thread_rotation_needed": "No"
+}

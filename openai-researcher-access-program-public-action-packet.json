@@ -1,0 +1,26 @@
+{
+  "schema": "ai-monkey-openai-researcher-access-program-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "OpenAI Researcher Access Program",
+  "lead_type": "credits_or_usability_candidate",
+  "official_source_url": "https://openai.com/form/researcher-access-program/",
+  "value_signal": "OpenAI advertises up to $1,000 in API credits for early-stage researchers with limited financial or institutional resources.",
+  "amount_or_value_band": "over_50",
+  "current_status": "conditional",
+  "eligibility_or_region_notes": "The public form is aimed at early-stage researchers in countries supported by OpenAI's API and is especially intended for researchers with limited financial and institutional resources.",
+  "deadline_or_currentness": "Public form is open; applications are reviewed once every three months and credits are credited 4-6 weeks after a decision.",
+  "best_fit_track": "Early-stage research concept using public AI Monkey facts",
+  "evidence_gate": "Approved application plus visible API credit delivery or other official confirmation.",
+  "ai_can_do_next": "Draft a one-page research concept and a privacy-safe evidence note using only public AI Monkey facts.",
+  "human_must_do_next": "Human owner must confirm the research profile and submit any application.",
+  "automation_boundary": "No login, application submission, account creation, passwords, OTP, private keys, KYC, tax, bank, or private data handling.",
+  "why_this_is_not_income_yet": "The credits are real, but no accepted application or usable credit balance has been verified.",
+  "suggested_next_check": "If the project can truthfully be framed as research, build a no-spend application outline and list the exact public facts needed for the form.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after approved application or visible usable-credit delivery."
+  },
+  "thread_rotation_needed": "No"
+}

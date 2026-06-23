@@ -1,0 +1,26 @@
+{
+  "schema": "ai-monkey-galuxium-nexus-v2-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "Galuxium Nexus V2",
+  "lead_type": "hackathon_or_prize_candidate",
+  "official_source_url": "https://galuxium-nexus-v2-29411.devpost.com/rules",
+  "value_signal": "The public Devpost listing shows INR 99,999 in prizes and frames the event around building profitable SaaS platforms that real users will pay for.",
+  "amount_or_value_band": "over_50",
+  "current_status": "open",
+  "eligibility_or_region_notes": "The public rules say builders may compete solo or in teams and that participation is fully online; any further sponsor-specific constraints should be verified directly before submission.",
+  "deadline_or_currentness": "Current public page shows Jul 1 - Aug 1, 2026 and the hackathon is live now.",
+  "best_fit_track": "Profit-first SaaS / automation build",
+  "evidence_gate": "Devpost submission receipt plus later judging, verification, and prize delivery proof.",
+  "ai_can_do_next": "Draft a no-spend profitable SaaS concept that reuses the public lead network and looks like something real users could pay for.",
+  "human_must_do_next": "Human account owner must confirm fit, register on Devpost if eligible, and submit the project.",
+  "automation_boundary": "No login, Devpost submission, account creation, passwords, OTP, private keys, KYC, tax, bank, wallet, or private data handling.",
+  "why_this_is_not_income_yet": "The prize pool is real, but no submission, ranking, verification, or payout has been confirmed.",
+  "suggested_next_check": "If truthfully eligible, map the AI Monkey public lead network into the smallest possible profitable SaaS demo and submission checklist.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after verified submission, prize delivery, or usable value delivery."
+  },
+  "thread_rotation_needed": "No"
+}

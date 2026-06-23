@@ -1,123 +1,125 @@
 {
-    "schema":  "ai-monkey-public-visitor-counter-v1",
-    "generated_at":  "2026-06-22T14:54:22Z",
-    "source":  "nginx_access_logs",
-    "counting_window":  "available rotated nginx access logs on server",
-    "log_time_range":  {
-                           "first_seen_raw":  "22/Jun/2026:00:01:04 +0800",
-                           "last_seen_raw":  "15/Jun/2026:23:56:12 +0800",
-                           "note":  "Raw first/last reflect concatenated log read order; counts cover current and rotated logs available on server."
-                       },
-    "counts":  {
-                   "total_requests":  39502,
-                   "ai_or_crawler_requests":  141,
-                   "human_or_other_requests":  39361
-               },
-    "unique_ip_estimates":  {
-                                "total_unique_ips":  725,
-                                "ai_or_crawler_unique_ips":  37,
-                                "human_or_other_unique_ips":  701
-                            },
-    "status_counts":  {
-                          "401":  224,
-                          "499":  14,
-                          "409":  6,
-                          "413":  1,
-                          "200":  22291,
-                          "303":  18,
-                          "403":  13,
-                          "405":  8603,
-                          "502":  34,
-                          "422":  2,
-                          "400":  1329,
-                          "404":  6930,
-                          "301":  37
-                      },
-    "top_paths":  [
-                      {
-                          "path":  "/api/worker/next",
-                          "requests":  8962
-                      },
-                      {
-                          "path":  "/api/worker/poll-advice?wait_seconds=10.0",
-                          "requests":  3574
-                      },
-                      {
-                          "path":  "/api/worker/projects/comm-hub/status-report",
-                          "requests":  3292
-                      },
-                      {
-                          "path":  "/",
-                          "requests":  3106
-                      },
-                      {
-                          "path":  "/value-log.json",
-                          "requests":  1487
-                      },
-                      {
-                          "path":  "/zh-hans/",
-                          "requests":  872
-                      },
-                      {
-                          "path":  "/en/",
-                          "requests":  867
-                      },
-                      {
-                          "path":  "/zh-hant/",
-                          "requests":  865
-                      },
-                      {
-                          "path":  "/api/worker/projects/media-2026/status-report",
-                          "requests":  654
-                      },
-                      {
-                          "path":  "/api/worker/projects/test-2026/status-report",
-                          "requests":  652
-                      },
-                      {
-                          "path":  "/api/worker/poll-advice",
-                          "requests":  650
-                      },
-                      {
-                          "path":  "/api/worker/projects/ai-play/status-report",
-                          "requests":  649
-                      },
-                      {
-                          "path":  "/api/worker/projects/skill-2026/status-report",
-                          "requests":  584
-                      },
-                      {
-                          "path":  "/submission-status.json",
-                          "requests":  582
-                      },
-                      {
-                          "path":  "/app.js",
-                          "requests":  532
-                      },
-                      {
-                          "path":  "/styles.css",
-                          "requests":  429
-                      },
-                      {
-                          "path":  "/assets/value-desk.png",
-                          "requests":  391
-                      },
-                      {
-                          "path":  "/.well-known/agent.json",
-                          "requests":  241
-                      },
-                      {
-                          "path":  "/v1/models",
-                          "requests":  221
-                      },
-                      {
-                          "path":  "/api/tags",
-                          "requests":  220
-                      }
-                  ],
-    "classification":  {
-                           "note":  "Classification is based on public user-agent strings and is an operational estimate, not identity proof."
-                       },
-    "income_now":  "No",
-    "paid_or_usable_value":  "No"
+  "schema": "ai-monkey-public-visitor-counter-v1",
+  "generated_at": "2026-06-22T20:56:34Z",
+  "source": "nginx_access_logs",
+  "counting_window": "available rotated nginx access logs on server",
+  "log_time_range": {
+    "first_seen_raw": "16/Jun/2026:00:01:04 +0800",
+    "last_seen_raw": "19/Jun/2026:23:28:32 +0800",
+    "note": "Raw first/last reflect nginx log read order; counts cover current and rotated logs available on server."
+  },
+  "counts": {
+    "total_requests": 40765,
+    "ai_or_crawler_requests": 144,
+    "human_or_other_requests": 40621
+  },
+  "unique_ip_estimates": {
+    "total_unique_ips": 787,
+    "ai_or_crawler_unique_ips": 40,
+    "human_or_other_unique_ips": 761
+  },
+  "status_counts": {
+    "200": 23068,
+    "405": 9038,
+    "404": 6931,
+    "400": 1330,
+    "401": 224,
+    "301": 82,
+    "502": 34,
+    "303": 18,
+    "499": 14,
+    "403": 13,
+    "409": 6,
+    "422": 3,
+    "201": 2,
+    "413": 1,
+    "429": 1
+  },
+  "top_paths": [
+    {
+      "path": "/api/worker/next",
+      "requests": 9202
+    },
+    {
+      "path": "/api/worker/poll-advice",
+      "requests": 4309
+    },
+    {
+      "path": "/api/worker/projects/comm-hub/status-report",
+      "requests": 3388
+    },
+    {
+      "path": "/",
+      "requests": 3289
+    },
+    {
+      "path": "/value-log.json",
+      "requests": 1498
+    },
+    {
+      "path": "/zh-hans/",
+      "requests": 877
+    },
+    {
+      "path": "/en/",
+      "requests": 872
+    },
+    {
+      "path": "/zh-hant/",
+      "requests": 870
+    },
+    {
+      "path": "/api/worker/projects/media-2026/status-report",
+      "requests": 678
+    },
+    {
+      "path": "/api/worker/projects/test-2026/status-report",
+      "requests": 676
+    },
+    {
+      "path": "/api/worker/projects/ai-play/status-report",
+      "requests": 673
+    },
+    {
+      "path": "/submission-status.json",
+      "requests": 672
+    },
+    {
+      "path": "/api/worker/projects/skill-2026/status-report",
+      "requests": 608
+    },
+    {
+      "path": "/app.js",
+      "requests": 539
+    },
+    {
+      "path": "/styles.css",
+      "requests": 440
+    },
+    {
+      "path": "/assets/value-desk.png",
+      "requests": 396
+    },
+    {
+      "path": "/.well-known/agent.json",
+      "requests": 254
+    },
+    {
+      "path": "/service-offer.json",
+      "requests": 247
+    },
+    {
+      "path": "/v1/models",
+      "requests": 221
+    },
+    {
+      "path": "/api/tags",
+      "requests": 220
+    }
+  ],
+  "classification": {
+    "note": "Classification is based on public user-agent strings and is an operational estimate, not identity proof."
+  },
+  "income_now": "No",
+  "paid_or_usable_value": "No"
 }

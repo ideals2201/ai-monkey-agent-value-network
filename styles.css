@@ -613,57 +613,6 @@ dd {
   line-height: 1.55;
 }
 
-.public-lead-form {
-  display: grid;
-  gap: 12px;
-  padding: 18px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: #fff;
-}
-
-.public-lead-form label {
-  display: grid;
-  gap: 6px;
-  color: var(--muted);
-  font-weight: 650;
-}
-
-.public-lead-form input,
-.public-lead-form select,
-.public-lead-form textarea {
-  width: 100%;
-  box-sizing: border-box;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 10px 12px;
-  font: inherit;
-  color: var(--ink);
-  background: #fff;
-}
-
-.public-lead-form textarea {
-  min-height: 130px;
-  resize: vertical;
-}
-
-.checkbox-line {
-  grid-template-columns: auto 1fr;
-  align-items: start;
-  color: var(--ink);
-  line-height: 1.45;
-}
-
-.checkbox-line input {
-  width: auto;
-  margin-top: 4px;
-}
-
-.form-status {
-  margin: 0;
-  color: var(--muted);
-}
-
 .visit-counter {
   background: #f4f8f4;
 }

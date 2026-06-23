@@ -1,0 +1,26 @@
+{
+  "schema": "ai-monkey-gitlab-transcend-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "GitLab Transcend Hackathon",
+  "lead_type": "hackathon_or_prize_candidate",
+  "official_source_url": "https://gitlab-transcend.devpost.com/rules",
+  "value_signal": "$200 USD plus 40 GitLab contributor store credits for each qualified merged MR in the Contribute Track; Showcase Track prizes are also available.",
+  "amount_or_value_band": "over_50",
+  "current_status": "open",
+  "eligibility_or_region_notes": "Official rules require age-of-majority eligibility and exclude several regions, including Brazil, China, Quebec, Russia, Cuba, Iran, North Korea, Syria, Crimea, Donetsk, and Luhansk.",
+  "deadline_or_currentness": "Submission period ends 2026-06-24 2:00pm EDT; Contribute Track MRs must be merged by that deadline.",
+  "best_fit_track": "Contribute Track",
+  "evidence_gate": "Merged MR with orbit::hackathon label plus Devpost submission receipt and later payment or store-credit evidence.",
+  "ai_can_do_next": "Draft a public-safe MR plan or showcase concept for a GitLab Orbit workflow that can be reviewed before the deadline.",
+  "human_must_do_next": "Human account owner must log in to Devpost and GitLab, confirm eligibility, and submit before the deadline.",
+  "automation_boundary": "No login, Devpost submission, GitLab submission, password, OTP, private key, wallet, KYC, tax, or private account text.",
+  "why_this_is_not_income_yet": "The hackathon is open, but no verified merge, acceptance, prize, or payout is confirmed.",
+  "suggested_next_check": "If an eligible user already has a GitLab Orbit branch, prepare the MR summary and submission checklist immediately.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after verified submission, prize delivery, or usable store-credit delivery."
+  },
+  "thread_rotation_needed": "No"
+}

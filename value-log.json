@@ -1,4 +1,4 @@
-﻿{
+{
     "schema":  "ai-monkey-value-log-v0",
     "updated_at":  "2026-06-20T00:00:00+08:00",
     "status_vocabulary":  [
@@ -138,17 +138,17 @@
                           },
                           {
                               "id":  "h0-zero-stack",
-                              "title":  "H0 Zero Stack",
+                              "title":  "H0: Hack the Zero Stack with Vercel v0 and AWS Databases",
                               "status":  "not_submitted",
                               "value":  {
                                             "type":  "preparation_or_radar",
                                             "amount":  null,
                                             "currency":  null,
-                                            "description":  "Preparation/radar for no-spend AI workflow collaboration; not income."
+                                            "description":  "Current hackathon radar for a no-spend AI workflow or B2B build; not income."
                                         },
                               "official_source":  {
-                                                      "label":  "H0 public challenge page and rules pending eligibility review",
-                                                      "url":  "https://h01.devpost.com/"
+                                                      "label":  "H0 official page and rules",
+                                                      "url":  "https://h01.devpost.com/rules"
                                                   },
                               "ai_tasks":  [
                                                "summarize_public_safe_capability",
@@ -165,10 +165,10 @@
                                                  "server_access_requires_approval",
                                                  "public_claim_review_required"
                                              ],
-                              "next_action":  "Prepare public-safe capability and proof notes before any outreach.",
-                              "ai_next_action":  "Draft capability summary and proof needs without exposing server or account details.",
+                              "next_action":  "Prepare a public-safe submission outline and proof notes before the June 29 deadline.",
+                              "ai_next_action":  "Draft a monetizable B2B concept summary and proof needs without exposing server or account details.",
                               "human_required_action":  "Approve public positioning and any server/account access.",
-                              "updated_at":  "2026-06-20T00:00:00+08:00",
+                              "updated_at":  "2026-06-23T10:30:55.7717990+08:00",
                               "owner":  "AI workflow / infrastructure",
                               "eligible_regions":  [
                                                        "global_online"

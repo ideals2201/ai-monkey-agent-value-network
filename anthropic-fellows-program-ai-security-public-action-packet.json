@@ -1,0 +1,26 @@
+{
+  "schema": "ai-monkey-anthropic-fellows-program-ai-security-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "Anthropic Fellows Program, AI Security",
+  "lead_type": "paid_research_or_testing_candidate",
+  "official_source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5030244008",
+  "value_signal": "Weekly stipend of $3,850 USD / $2,310 GBP / $4,300 CAD plus benefits, mentorship, and compute/research support.",
+  "amount_or_value_band": "over_50",
+  "current_status": "open",
+  "eligibility_or_region_notes": "The posting targets applicants over 18 with under two years of full-time work experience, a strong technical background, fluent Python, and full-time availability; the listed locations are London, Ontario, remote-friendly United States, and San Francisco.",
+  "deadline_or_currentness": "Rolling applications are open for cohorts starting in July 2026 and beyond; the page says the next cohort is expected to start in late September.",
+  "best_fit_track": "AI Security Fellows",
+  "evidence_gate": "Application receipt plus later interview or selection notice and stipend or fellowship onboarding proof.",
+  "ai_can_do_next": "Draft a one-page fit memo and a resume/project bullet pack using only public AI Monkey facts.",
+  "human_must_do_next": "Human owner must confirm the fit and complete the application and any interview steps.",
+  "automation_boundary": "No login, application submission, account creation, passwords, OTP, private keys, KYC, tax, bank, or private data handling.",
+  "why_this_is_not_income_yet": "The stipend is real, but no application acceptance or paid onboarding has been verified.",
+  "suggested_next_check": "If the profile is a truthful fit, prepare a short evidence bundle and application outline before any submission.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after accepted application or visible stipend delivery."
+  },
+  "thread_rotation_needed": "No"
+}

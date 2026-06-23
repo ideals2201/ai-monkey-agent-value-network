@@ -1,0 +1,28 @@
+{
+  "schema": "ai-monkey-margintrade-content-bounty-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "Margin.Trade Content Bounty",
+  "lead_type": "cash_bounty_candidate",
+  "official_source_url": "https://superteam.fun/earn/listing/margintrade-content-bounty/",
+  "value_signal": "Open Superteam bounty with 2,000 USDC total prizes and a 700/500/350/250/200 USDC split across five winners.",
+  "amount_or_value_band": "over_50",
+  "current_status": "open",
+  "eligibility_or_region_notes": "Superteam lists the bounty as Global; submission eligibility and platform account requirements still need confirmation before any entry.",
+  "deadline_or_currentness": "Current Superteam feed shows the bounty as due in 6d/9d and the sponsor announcement is scheduled for July 7, 2026.",
+  "best_fit_track": "Content / Design",
+  "evidence_gate": "Submitted entry plus platform acceptance or winner announcement and any later USDC payout evidence.",
+  "ai_can_do_next": "Draft a content angle, explainer thread, and short promo asset set for Margin.Trade using only public product details.",
+  "human_must_do_next": "Human account owner must sign in to Superteam and submit the best-fit content/design package.",
+  "automation_boundary": "No login, Superteam submission, Telegram outreach, passwords, OTP, private keys, KYC, tax, or payment data.",
+  "why_this_is_not_income_yet": "The bounty is open, but no submission, acceptance, winner notice, or payout has been verified.",
+  "public_proof_url": "https://superteam.fun/earn/listing/margintrade-content-bounty/",
+  "risk_flags": "Platform submission required; no public email surfaced on the listing.",
+  "known_blockers": "The contact path is public Telegram and the payout still depends on platform review.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after verified submission, payout, or usable value delivery."
+  },
+  "thread_rotation_needed": "No"
+}

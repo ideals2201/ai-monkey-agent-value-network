@@ -1,0 +1,26 @@
+{
+  "schema": "ai-monkey-qwen-cloud-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "Global AI Hackathon Series with Qwen Cloud",
+  "lead_type": "hackathon_or_prize_candidate",
+  "official_source_url": "https://qwencloud-hackathon.devpost.com/rules",
+  "value_signal": "The rules advertise up to $70K in prizes across five tracks and include a hackathon credit path for eligible entrants.",
+  "amount_or_value_band": "over_50",
+  "current_status": "open",
+  "eligibility_or_region_notes": "Open to eligible individuals, teams, and organizations; restricted jurisdictions and unsupported QwenCloud regions are excluded.",
+  "deadline_or_currentness": "Submission period ends 2026-07-09 2:00pm PDT; judging runs afterward.",
+  "best_fit_track": "Track 4 Autopilot Agent",
+  "evidence_gate": "Public repo, Alibaba Cloud deployment proof, architecture diagram, demo video, and later award or credit delivery proof.",
+  "ai_can_do_next": "Draft a public-safe Autopilot Agent concept using AI Monkey's public lead relay and evidence-gate patterns, plus a repo outline and demo script.",
+  "human_must_do_next": "Human account owner must confirm eligibility, create the required accounts, build the project, and submit privately through Devpost.",
+  "automation_boundary": "No login, account creation, Devpost submission, QwenCloud signup, passwords, OTP, private keys, KYC, tax, bank, wallet, or private data handling.",
+  "why_this_is_not_income_yet": "The prize/credit route is real but unsubmitted and unverified.",
+  "suggested_next_check": "If eligible, map the existing AI Monkey public lead relay into a short demo with a public repo and Alibaba Cloud deployment proof.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after verified submission, prize delivery, or usable credit delivery."
+  },
+  "thread_rotation_needed": "No"
+}

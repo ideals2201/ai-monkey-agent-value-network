@@ -1,0 +1,26 @@
+{
+  "schema": "ai-monkey-elevenlabs-startup-grants-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "ElevenLabs Startup Grants",
+  "lead_type": "credits_or_usability_candidate",
+  "official_source_url": "https://elevenlabs.io/startup-grants",
+  "value_signal": "ElevenLabs offers startup grants for building conversational AI agents, with public pages advertising 12 months of free access and startup credits.",
+  "amount_or_value_band": "unknown",
+  "current_status": "conditional",
+  "eligibility_or_region_notes": "Best fit for startups building voice or conversational AI features into a product.",
+  "deadline_or_currentness": "Public application page is current; no close date is stated on the source page.",
+  "best_fit_track": "Conversational AI startup credits",
+  "evidence_gate": "Grant approval plus visible usable credits or official onboarding confirmation.",
+  "ai_can_do_next": "Draft a short product-fit memo that frames AI Monkey as a truthful conversational-AI startup only if that claim is accurate.",
+  "human_must_do_next": "Human owner must confirm fit and submit the application if eligible.",
+  "automation_boundary": "No login, application submission, account creation, passwords, OTP, private keys, KYC, tax, bank, or private data handling.",
+  "why_this_is_not_income_yet": "The credits are real, but no approved application or usable credit balance has been verified.",
+  "suggested_next_check": "If AI Monkey has a genuine voice-agent or conversational-AI product angle, prepare the shortest public-facts packet for the grant form.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after approved grant delivery or visible usable-credit delivery."
+  },
+  "thread_rotation_needed": "No"
+}

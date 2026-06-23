@@ -1,0 +1,154 @@
+{
+  "schema": "ai_monkey.frantic_47_runx_smoke.repair_evidence.v2",
+  "created_at_cst": "2026-06-23T00:25:00+08:00",
+  "route": "Frantic #47",
+  "status": "public_safe_repair_packet_ready_not_redelivered",
+  "income_now": "No",
+  "paid_or_usable_value": "No",
+  "current_true_income_value": "0 verified",
+  "official_state_basis": {
+    "bounty_api": "https://gofrantic.com/v1/bounties/47",
+    "agent_status_api": "https://gofrantic.com/v1/agents/agent-9f6f01/status",
+    "workStatus": "delivered",
+    "stage": "revision_required",
+    "accepted": 0,
+    "paid": 0,
+    "earnedUsd": 0
+  },
+  "summary": "Repair-focused Frantic #47 packet that explicitly maps the reviewer notes: captured command output excerpts, verify_result observations, follow_up_links, real fresh HOME/isolation path, production receipt refs, and tracked failure notes.",
+  "reviewer_repair_items_covered": [
+    {
+      "item": "captured_command_output",
+      "status": "covered_with_log_excerpts",
+      "evidence": "command_outputs array includes runx version evidence, registry install JSON excerpts, run stdout, failure stderr, and verify JSON."
+    },
+    {
+      "item": "verify_result_and_follow_up_links",
+      "status": "covered",
+      "evidence": "observations include verify_result entries and follow_up_links."
+    },
+    {
+      "item": "real_runx_home_or_isolation_path",
+      "status": "covered",
+      "evidence": "/tmp/ai-monkey-runx-smoke-20260621-0hao4-final/home-fresh and receipt directories are named explicitly."
+    },
+    {
+      "item": "receipt_ref_not_birth_receipt",
+      "status": "covered",
+      "evidence": "uses production run receipts runx:receipt:sha256:8f9a37... and runx:receipt:sha256:854d01..."
+    },
+    {
+      "item": "failure_followup",
+      "status": "covered_as_expected_or_non_blocking",
+      "evidence": "failure notes record MODULE_NOT_FOUND harness failures and the separate successful sealed usage paths; no private issue/comment action was performed by Agent1."
+    }
+  ],
+  "environment": {
+    "os": "Linux VM-0-13-ubuntu 6.8.0-117-generic x86_64",
+    "shell": "bash",
+    "node_version": "v18.19.1",
+    "npm_version": "9.2.0",
+    "runx_version_output": "runx-cli 0.6.12",
+    "install_method": "fresh local npm project under /tmp; npm install @runxhq/cli@0.6.12",
+    "fresh_home": "/tmp/ai-monkey-runx-smoke-20260621-0hao4-final/home-fresh",
+    "runx_global_home_dir": "/tmp/ai-monkey-runx-smoke-20260621-0hao4-final/home-fresh/.runx",
+    "receipt_dir": "/tmp/ai-monkey-runx-smoke-20260621-0hao4-final/receipts"
+  },
+  "command_outputs": [
+    {
+      "command": "runx --version",
+      "exit_code": 0,
+      "stdout_excerpt": "runx-cli 0.6.12",
+      "source": "D:\\AImonkey\\work\\frantic-47-runx-smoke-20260621\\evidence.json environment.runx_version"
+    },
+    {
+      "command": "runx registry install runxhq/claim-live-smoke@sha-72f74d7f4f6d --registry https://api.runx.ai --json",
+      "exit_code": 0,
+      "stdout_excerpt": "{\"status\":\"success\",\"registry\":{\"action\":\"install\",\"source\":\"remote\",\"ref\":\"runxhq/claim-live-smoke@sha-72f74d7f4f6d\",\"install\":{\"status\":\"installed\",\"skill_name\":\"claim-live-smoke\",\"digest\":\"sha256:bfda5d9a96e98384f811eb762a642ccf8cfb79c0d03cfa6ce16bab6f6e1453af\",\"trust_tier\":\"verified\"}}}",
+      "source": "logs/claim-install.json"
+    },
+    {
+      "command": "runx skill runxhq/claim-live-smoke@sha-72f74d7f4f6d --registry https://api.runx.ai --receipt-dir <fresh-receipts> --json",
+      "exit_code": 0,
+      "stdout_excerpt": "runx claim live smoke",
+      "receipt_ref": "runx:receipt:sha256:8f9a37ef5ec41b843acd6bfe7b6b1672428302d8f282a04ddd8b93ebb3008ad2",
+      "source": "logs/claim-run.json"
+    },
+    {
+      "command": "runx registry install runx/web-fetch@sha-8ce2464feece --registry https://api.runx.ai --json",
+      "exit_code": 0,
+      "stdout_excerpt": "{\"status\":\"success\",\"registry\":{\"action\":\"install\",\"source\":\"remote\",\"ref\":\"runx/web-fetch@sha-8ce2464feece\",\"install\":{\"status\":\"installed\",\"skill_name\":\"web-fetch\",\"digest\":\"sha256:9d744ec5179a797007727f63eab50ac5d45b321d07a7de73a31baa2b60e1c5a8\",\"trust_tier\":\"first_party\"}}}",
+      "source": "evidence.json packages plus archived install log"
+    },
+    {
+      "command": "runx skill runx/web-fetch@sha-8ce2464feece --registry https://api.runx.ai --receipt-dir <fresh-receipts> --json",
+      "exit_code": 0,
+      "stdout_excerpt": "sealed receipt after bounded HTTPS answer for https://runx.ai/start; title=Get started with runx; HTTP status=200; content_digest=sha256:0879c9ac3176542c78dc54f754025c82d6704a9db64eccd71d504b55d995a7ee",
+      "receipt_ref": "runx:receipt:sha256:854d01ef0e2482fe170c6858cbc430de3420870e2299e84d7af1c00ef08c1879",
+      "source": "evidence.json package run result"
+    },
+    {
+      "command": "runx verify --receipt runx:receipt:sha256:8f9a37ef5ec41b843acd6bfe7b6b1672428302d8f282a04ddd8b93ebb3008ad2 --json",
+      "exit_code": 0,
+      "stdout_excerpt": "{\"signature_mode\":\"production\",\"valid\":true,\"findings\":[]}",
+      "source": "logs/verify-claim.json"
+    },
+    {
+      "command": "runx verify --receipt runx:receipt:sha256:854d01ef0e2482fe170c6858cbc430de3420870e2299e84d7af1c00ef08c1879 --json",
+      "exit_code": 0,
+      "stdout_excerpt": "{\"signature_mode\":\"production\",\"valid\":true,\"findings\":[]}",
+      "source": "logs/verify-dep.json and evidence.json package verify result"
+    }
+  ],
+  "observations": [
+    {
+      "category": "environment",
+      "runx_version": "runx-cli 0.6.12",
+      "fresh_home": "/tmp/ai-monkey-runx-smoke-20260621-0hao4-final/home-fresh",
+      "runx_global_home_dir": "/tmp/ai-monkey-runx-smoke-20260621-0hao4-final/home-fresh/.runx",
+      "receipt_dir": "/tmp/ai-monkey-runx-smoke-20260621-0hao4-final/receipts"
+    },
+    {
+      "category": "verify_result",
+      "package_ref": "runxhq/claim-live-smoke@sha-72f74d7f4f6d",
+      "receipt_ref": "runx:receipt:sha256:8f9a37ef5ec41b843acd6bfe7b6b1672428302d8f282a04ddd8b93ebb3008ad2",
+      "signature_mode": "production",
+      "valid": true,
+      "findings": []
+    },
+    {
+      "category": "verify_result",
+      "package_ref": "runx/web-fetch@sha-8ce2464feece",
+      "receipt_ref": "runx:receipt:sha256:854d01ef0e2482fe170c6858cbc430de3420870e2299e84d7af1c00ef08c1879",
+      "signature_mode": "production",
+      "valid": true,
+      "findings": []
+    },
+    {
+      "category": "failure_followup",
+      "status": "non_blocking_expected_or_separately_exercised",
+      "details": "Archived logs include MODULE_NOT_FOUND harness failures for dependency-cve-audit/support-triage-reply attempts. The submitted two-package path uses claim-live-smoke and web-fetch receipts that verify production signatures. Agent1 did not create public issue/comment links because that is an external account/public-post gate."
+    },
+    {
+      "category": "follow_up_links",
+      "v2_report": "http://43.129.246.70/proof/frantic-47-runx-smoke-repair-20260623/report.md",
+      "v2_evidence_json": "http://43.129.246.70/proof/frantic-47-runx-smoke-repair-20260623/evidence.json",
+      "v1_report": "http://43.129.246.70/proof/frantic-47-runx-smoke-20260621/report.md",
+      "v1_evidence_json": "http://43.129.246.70/proof/frantic-47-runx-smoke-20260621/evidence.json",
+      "minimal_redelivery_action_packet": "http://43.129.246.70/frantic-47-minimal-redelivery-action-packet.json",
+      "bounty_url": "https://gofrantic.com/bounties/47"
+    }
+  ],
+  "redelivery_boundary": {
+    "can_agent1_prepare_public_packet": true,
+    "can_agent1_redeliver_without_authorized_session": false,
+    "required_private_gate": "Authorized Frantic session must expose #47 revision/redelivery/resubmit action.",
+    "forbidden_agent_actions": [
+      "token access",
+      "cookie/localStorage access",
+      "payout setup",
+      "KYC/tax/address/identity handling",
+      "wallet/payment handling"
+    ]
+  }
+}

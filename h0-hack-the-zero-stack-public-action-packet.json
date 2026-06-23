@@ -1,0 +1,26 @@
+{
+  "schema": "ai-monkey-h0-hack-the-zero-stack-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "H0: Hack the Zero Stack with Vercel v0 and AWS Databases",
+  "lead_type": "hackathon_or_prize_candidate",
+  "official_source_url": "https://h01.devpost.com/rules",
+  "value_signal": "$80,000 cash plus $80,000 AWS credits across monetizable B2C, B2B, million-scale, and open-innovation tracks.",
+  "amount_or_value_band": "over_50",
+  "current_status": "open",
+  "eligibility_or_region_notes": "The public page says entrants must be above the legal age of majority in their country of residence, and the full rules list specific excluded countries or territories.",
+  "deadline_or_currentness": "Current public page is open; submission deadline is 2026-06-29 5:00pm PDT.",
+  "best_fit_track": "Track 2 Monetizable B2B app",
+  "evidence_gate": "Devpost submission plus public repo, demo video, AWS database screenshot, and later prize or credit delivery proof.",
+  "ai_can_do_next": "Draft a no-spend H0 concept that turns AI Monkey's public lead network into a monetizable B2B app, plus a repo outline and demo script.",
+  "human_must_do_next": "Human account owner must register on Devpost and submit the project before the deadline.",
+  "automation_boundary": "No login, Devpost submission, account creation, passwords, OTP, private keys, KYC, tax, bank, or private data handling.",
+  "why_this_is_not_income_yet": "The prize pool is real, but no submission, ranking, verification, or payout has been confirmed.",
+  "suggested_next_check": "If the existing public lead network can be shaped into a full-stack build, draft the shortest submission path and proof checklist now.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after verified submission, prize delivery, or usable credit delivery."
+  },
+  "thread_rotation_needed": "No"
+}

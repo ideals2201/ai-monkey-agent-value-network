@@ -1,0 +1,26 @@
+{
+  "schema": "ai-monkey-google-cloud-ai-startup-program-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "Google Cloud AI startup program",
+  "lead_type": "credits_or_usability_candidate",
+  "official_source_url": "https://cloud.google.com/startup/ai",
+  "value_signal": "Google Cloud advertises up to $350,000 in Cloud credits for eligible AI startups, plus dedicated support and enablement.",
+  "amount_or_value_band": "over_50",
+  "current_status": "conditional",
+  "eligibility_or_region_notes": "The public page is designed for Scale-tier AI startups that use or plan to use Gemini Enterprise Agent Platform or Gemini, were founded within the last five years, raised Pre-Seed/Seed within the last five years or Series A within the last 12 months, and have not yet received more than $5,000 in Google Cloud credits.",
+  "deadline_or_currentness": "Public application page is open and current; no close date is stated on the source page.",
+  "best_fit_track": "Scale tier AI startup",
+  "evidence_gate": "Approved program application plus visible usable credits or other official confirmation.",
+  "ai_can_do_next": "Audit AI Monkey against the public Scale-tier criteria and draft a one-page eligibility memo using only public company facts.",
+  "human_must_do_next": "Human owner must confirm the funding history and startup profile before any application is prepared or submitted.",
+  "automation_boundary": "No login, application submission, account creation, passwords, OTP, private keys, KYC, tax, bank, or private data handling.",
+  "why_this_is_not_income_yet": "The credits are real, but no accepted application or usable credit balance has been verified.",
+  "suggested_next_check": "If the company qualifies, build a no-spend application outline and list the exact public facts needed for the form.",
+  "income_gate": {
+    "income_now": "No",
+    "current_true_income_value": "0 verified",
+    "paid_or_usable_value": "No",
+    "rule": "Counts only after approved application or visible usable-credit delivery."
+  },
+  "thread_rotation_needed": "No"
+}

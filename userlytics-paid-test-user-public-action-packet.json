@@ -1,0 +1,21 @@
+{
+  "schema": "ai-monkey-userlytics-paid-test-user-public-action-packet-v0",
+  "status": "public_static_action_packet_not_income",
+  "route": "Userlytics paid test user",
+  "lead_type": "paid_research_or_testing_candidate",
+  "official_source_url": "https://www.userlytics.com/user-experience-research/paid-ux-testing/",
+  "value_signal": "Userlytics says people can make money online by testing websites, prototypes, advertisements, and videos, with PayPal payment after approval.",
+  "amount_or_value_band": "under_50",
+  "current_status": "open",
+  "eligibility_or_region_notes": "Public tester sign-up is available; the form and help pages indicate a truthful tester profile, age 16+ requirement, and PayPal payout path.",
+  "deadline_or_currentness": "Ongoing; current pages describe paid testing and the help center explains payout timing after approved tests.",
+  "best_fit_track": "Paid tester",
+  "evidence_gate": "Approved tester account plus completed study and verified PayPal payout.",
+  "ai_can_do_next": "Prepare a truthful tester profile checklist and privacy note for the user to review.",
+  "human_must_do_next": "Human account owner must sign up, complete screening, and personally perform tests.",
+  "automation_boundary": "No account creation, login, screening submission, or private profile/payment data handling by Agent1.",
+  "why_this_is_not_income_yet": "Open access is not income until a paid test is completed and payout is verified.",
+  "public_proof_url": "https://www.userlytics.com/user-experience-research/paid-ux-testing/",
+  "risk_flags": "Screening is selective and payout is PayPal-only according to the public help pages.",
+  "known_blockers": "Requires truthful tester fit and the ability to complete studies personally."
+}
