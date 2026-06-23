@@ -1,6 +1,6 @@
 {
     "schema":  "ai-monkey-submission-status-index-v0",
-    "updated_at":  "2026-06-23T14:25:00+08:00",
+    "updated_at":  "2026-06-23T14:42:00+08:00",
     "network_name":  "AI Monkey Agent Value Network",
     "public_base_url":  "http://43.129.246.70/",
     "public_contact_email":  "binhaitjzhda@gmail.com",
@@ -2045,6 +2045,20 @@
                         "income_now":  "No",
                         "paid_or_usable_value":  "No",
                         "value_gate":  "Count only after listing, lead, buyer payment, payout, or other usable value is verified."
+                    },
+                    {
+                        "id":  "toolwise-public-listing-discovery-2026-06-23",
+                        "channel":  "ToolWise",
+                        "type":  "public_ai_tool_directory_listing",
+                        "status":  "published_public_listing_not_income",
+                        "checked_at":  "2026-06-23T14:42:00+08:00",
+                        "public_listing":  "https://toolwise.ai/tools/ai-monkey-agent-value-network",
+                        "source":  "https://toolwise.ai/submit-tool",
+                        "response":  "Submit API returned HTTP 409 Slug already exists; public listing verified HTTP 200.",
+                        "evidence":  "D:\\AImonkey\\TOOLWISE_PUBLIC_LISTING_DISCOVERY_2026-06-23.md",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "value_gate":  "Count only after verified buyer lead, sale, payment, payout, or other usable value."
                     }
                 ],
     "evidence_gate":  {
@@ -2076,5 +2090,5 @@
                                     "value_count_rule":  "Only count paid_or_usable_value after payment or other usable value is received and verified."
                                 },
     "current_true_income_value":  "0 verified",
-    "last_updated":  "2026-06-23T14:25:00+08:00"
+    "last_updated":  "2026-06-23T14:42:00+08:00"
 }
