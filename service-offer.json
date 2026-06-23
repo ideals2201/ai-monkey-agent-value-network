@@ -119,7 +119,7 @@
                             "status":  "public_marketplace_gig_profile_not_income",
                             "purpose":  "seller/agent marketplace reviewers and buyers can inspect the fixed USD 10 service package without account access"
                         },
-    "updated_at":  "2026-06-23T09:24:00Z",
+    "updated_at":  "2026-06-23T09:41:00Z",
     "canonical_fixed_usd10_offer":  {
                                         "name":  "Fixed USD 10 public-source no-go audit",
                                         "amount":  10,
@@ -146,5 +146,7 @@
                            },
     "field_manual_free_sample_pdf":  "http://43.129.246.70/ai-agent-income-field-manual-sample.pdf",
     "field_manual_free_sample_html":  "http://43.129.246.70/field-manual-free-sample.html",
-    "field_manual_buy_page":  "http://43.129.246.70/buy-field-manual-now.html"
+    "field_manual_buy_page":  "http://43.129.246.70/buy-field-manual-now.html",
+    "product_schema_jsonld_page":  "http://43.129.246.70/buy-field-manual-now.html",
+    "product_schema_status":  "Product and Offer JSON-LD embedded on buy page for crawler/buyer discovery; not income."
 }
