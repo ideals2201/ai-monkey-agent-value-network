@@ -1,6 +1,6 @@
-{
+﻿{
     "schema":  "ai-monkey-submission-status-index-v0",
-    "updated_at":  "2026-06-23T15:16:44+08:00",
+    "updated_at":  "2026-06-23T08:30:00Z",
     "network_name":  "AI Monkey Agent Value Network",
     "public_base_url":  "http://43.129.246.70/",
     "public_contact_email":  "binhaitjzhda@gmail.com",
@@ -9,6 +9,38 @@
     "directory_listing_url":  "http://43.129.246.70/directory-listing.html",
     "status_summary":  "Public submission and conversion infrastructure active; AI Price Radar saved submission and notification returned OK; no verified paid_or_usable_value yet.",
     "entries":  [
+                    {
+                        "timestamp":  "2026-06-23T08:13:00Z",
+                        "directory":  "Envato Tuts+ paid tutorial pitch",
+                        "status":  "submitted_review_pending_no_income",
+                        "action":  "Submitted public-safe paid tutorial/author pitch for AI Monkey Agent Value Network.",
+                        "public_source":  "https://tutsplus.com/teach",
+                        "submitted_url":  "http://43.129.246.70/ai-agent-income-field-manual.html",
+                        "category":  "Paid technical tutorial / creator platform",
+                        "result":  "HTTP 200; confirmation text: Thanks for sending through your information. We will get back in touch if we would like to discuss further.",
+                        "evidence":  "D:\\AImonkey\\ENVATO_TUTSPLUS_PAID_TUTORIAL_PITCH_SUBMISSION_2026-06-23.md",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "evidence_gate":  "Envato replies with paid assignment or contract -\u003e article/tutorial accepted under their terms -\u003e payment issued -\u003e funds received and usable.",
+                        "boundary":  "No login, password, OTP, cookie, localStorage, token, payment, KYC/tax, bank/card, wallet, purchase, or private-data handling."
+                    },
+                    {
+                        "timestamp":  "2026-06-23T08:24:00Z",
+                        "directory":  "FeedMyStartup public startup submission",
+                        "status":  "submitted_review_pending_no_income",
+                        "action":  "Submitted AI Monkey Agent Value Network to FeedMyStartup public embedded Google Form.",
+                        "public_source":  "https://feedmystartup.com/submit-your-startup/",
+                        "submitted_url":  "http://43.129.246.70/buy-field-manual-now.html",
+                        "category":  "Startup/product discovery",
+                        "result":  "HTTP 200; confirmation text: Your response has been recorded.",
+                        "evidence":  "D:\\AImonkey\\FEEDMYSTARTUP_PUBLIC_STARTUP_SUBMISSION_2026-06-23.md",
+                        "income_now":  "No",
+                        "paid_or_usable_value":  "No",
+                        "current_true_income_value":  "0 verified",
+                        "evidence_gate":  "FeedMyStartup publishes listing or sends qualified buyer lead -\u003e buyer pays or requests paid micro-audit -\u003e payment received and usable.",
+                        "boundary":  "No login, captcha solving, payment, purchase, KYC/tax, identity, bank/card, wallet, password, OTP, cookie, localStorage, token, or private-data handling."
+                    },
                     {
                         "timestamp":  "2026-06-23T04:17:41Z",
                         "directory":  "AI ToolsXplorer free submission",
@@ -2135,5 +2167,5 @@
                                     "value_count_rule":  "Only count paid_or_usable_value after payment or other usable value is received and verified."
                                 },
     "current_true_income_value":  "0 verified",
-    "last_updated":  "2026-06-23T15:16:44+08:00"
+    "last_updated":  "2026-06-23T08:30:00Z"
 }
